@@ -1,0 +1,16 @@
+seonmin:
+  name: SeonMin Kim
+  email: your-email@ucsf.edu
+  
+  about: |
+    Health-focused data scientist with expertise in pharmaceutical sciences, regulatory affairs, and AI applications for healthcare.
+    Passionate about delivering real-world impact at the intersection of healthcare, technology, and strategy.
+
+  # Try all possible image configurations
+  picture: /assets/img/portfolio_pic.JPG
+  avatar: /assets/img/avatar.JPG
+  image: /assets/img/portfolio_pic.JPG
+
+  social:
+    github: EstherKim97
+    linkedin: seon-min-kim

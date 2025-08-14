@@ -1,0 +1,56 @@
+main: # You can enter in your items in a long list in this form. A few notes: they will not automatically be listed by time, so you will need to order it manually, with most recent at the top and least recent at the bottom.
+
+  - type: conferences
+    title: Effort to Improve the Functions of AtMBF1c for salt stress tolerance
+    conference: Korean Society for Molecular and Cellular Biology (KSMCB) international conference
+    lab: Plant Gene Regulation Lab, Sogang university
+    advisors: Byeong-ha Lee, PhD
+    years: 2019
+    
+  - type: conferences
+    title: Understanding of Salt Stress Tolerance in Arabidopsis by Overexpression of P. alpinum MBF1 gene
+    conference: KSMCB international conference
+    lab: Plant Gene Regulation Lab, Sogang university
+    advisors: Byeong-ha Lee, PhD
+    years: 2018
+
+  - type: awards
+    title: 2nd Prize, QBI Innovation Hackathon
+    institution: UCSF Quantitative Biosciences Institute
+    #awarded for: MaxBindAI – Machine Learning-Based Prediction of Maximum Ligand Binding Affinity to Protein Sites
+    years: 2025
+    #notes: Supported by a QBI minigrant; actively collaborating on continued development of the original hackathon project.
+
+  - type: projects # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
+    title: "DigitalTwin: Cough-Based Respiratory Disease Detection Web App"
+    institute: Berkeley AI Hackathon
+    team/individual: Team
+    link: https://github.com/EstherKim97/DigitalTwin
+    image: ./workspaces/Resume/assets/DigitalTwin.png
+    notes: A machine learning-powered platform leveraging cough acoustics for non-invasive, continuous respiratory disease screening. 
+
+  - type: projects # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
+    title: "MaxBindAI"
+    institute: QBI Hackathon
+    team/individual: Team
+    link: https://github.com/EstherKim97/MaxBind-AI
+    image: ./assets/Myoglobin.png
+    notes: Developed CNN to predict ligand affinity using ChEMBL/PLINDER data
+
+        
+#  - type: # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
+#    title: 
+#    authors: 
+#    pub_abbr: # for type:essay
+#    publication: # for type:essay
+#    conference: # for type:conference
+#    date: 
+#    doi: # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
+#    code: # for type:essay, type:conference. This is meant to link to a code repo.
+#    page: # for type:essay, type:conference. This is meant to link to an external site that may not be official, like a blog post.
+#    institution: # for type:award, type:grant
+#    amount: # for type:award, type:grant
+#    awardedfor: # for type:award. This will let you write the specific project if applicable. Include "" for short work and <i></i> for books and films.
+#    image: #for type:essay, type:art. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+#    displayed: Displayed at Common Ground Graduate Conference in April 2023, and HASTAC Conference in June 2023 # for type:art. Refers to where and when the art piece was shown.
+#    notes:

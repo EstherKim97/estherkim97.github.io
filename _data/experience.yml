@@ -1,0 +1,58 @@
+main:
+
+  - type: education
+    degreepath: M.S. Health Data Science # for type.education.
+    institution: University of California, San Francisco
+    department: Department of Epidemiology and Biostatistics
+    advisors: Marina Sirota, PhD # for type.education.
+    thesis: CyTOF-based biomarker analysis for kidney transplant rejection # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
+    related courses: 
+    years: 2024 - Present
+    notes: In Progress
+
+  - type: education
+    degreepath: M.S. Pharmacy # for type.education.
+    institution: Yonsei University
+    department: Graduate Program of Industrial Pharmaceutical Science
+    advisors: Jin Hyun Jung, PhD # for type.education.
+    #thesis: "Making Github Templates" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
+    related courses: 
+    years: 2021 - 2023
+    notes: Graduated 
+
+  - type: education
+    degreepath: B.S. Life Sciences # for type.education.
+    institution: Sogang University
+    department: Department of Natural Sciences
+    advisors: H. Sean Lee, PhD # for type.education.
+    #thesis: "Making Github Templates" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
+    related courses: 
+    years: 2016 - 2020
+    notes: Graduated 
+  
+  - type: job
+    title: Catalyst Summer Intern
+    institution: UCSF Catalyst Program
+    years: June 2025 - Present
+    work: Supporting strategic planning for MAC Copilot, a digital health decision-support tool for dementia care developed by UCSF’s Memory and Aging Center, through development of Target Product Profiles (TPPs)
+    work: Collaborating with clinicians and researchers to assess market and regulatory feasibility
+    
+  - type: job
+    title: Regulatory Affairs Specialist
+    institution: Chong Kun Dang Pharmaceutical
+    department: Global RA team
+    years: July 2020 - August 2024
+    
+
+
+    
+# The structure of the data. You can include or exclude material as you need.
+#  - type: # types include "education" for degree paths, "job" for past positions, and "service" for service positions.
+#    degreepath: # for type.education.
+#    title: # for type.employment and type.service.
+#    institution:
+#    department: 
+#    advisors: # for type.education.
+#    thesis: # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
+#    date: 
+#    notes:
