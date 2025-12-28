@@ -112,3 +112,16 @@
   .rp-avatar{ width:96px; height:96px; }
   .rp-row{ flex-direction:column; }
 }
+
+/* Fix overlap in Recent Updates list */
+.rp-list li {
+  display: flex;
+  gap: 14px;
+  align-items: baseline;
+}
+
+.rp-list .rp-date {
+  flex: 0 0 110px;       /* reserved space for date */
+  white-space: nowrap;   /* keep date on one line */
+  color: rgba(0,0,0,.55);
+}

@@ -7,7 +7,6 @@ permalink: /about/
 <!-- Top header block -->
 <div class="rp-hero">
   <div class="rp-hero-left">
-    <div class="rp-kicker">RESEARCH PROFILE</div>
     <h1 class="rp-name">SeonMin Kim</h1>
     <div class="rp-affil">UCSF • M.S. Health Data Science (Expected May 2026)</div>
   </div>
@@ -21,7 +20,7 @@ permalink: /about/
 <div class="rp-card">
   <div class="rp-title">Profile</div>
   <p>
-    I'm SeonMin Kim — a health-focused data scientist with a regulatory background. After several years leading FDA/MFDS-related regulatory work in the pharmaceutical industry, I pivoted into data science to support healthcare teams with stronger evidence generation and data-driven decision-making.
+    I'm <strong>SeonMin Kim<strong> — a <strong>health-focused data scientist<strong> with a regulatory background. After several years <strong>leading FDA/MFDS-related regulatory work in the pharmaceutical industry<strong>, I pivoted into data science to support healthcare teams with stronger evidence generation and data-driven decision-making.
   </p>
 </div>
 
@@ -31,9 +30,16 @@ permalink: /about/
   <p>
     I'm pursuing my M.S. in <strong>Health Data Science</strong> at UCSF (expected May 2026), with a background in <strong>Pharmaceutical Sciences</strong> and <strong>Regulatory Affairs</strong>. My work connects <strong>patient-level clinical data</strong> with <strong>biomedical signals</strong>—particularly single-cell modalities like <strong>CyTOF and scRNA-seq</strong>.
   </p>
+  
   <p>
-    At UCSF, I work with clinical and operational datasets paired with high-dimensional biomedical data. For my capstone, I'm analyzing CyTOF data from kidney transplant patients to identify immune cell signatures that differentiate acute rejection from stable graft function. I'm looking at how cell populations shift across multiple timepoints post-transplant and using statistical methods to find which patterns actually predict rejection outcomes. I work closely with the transplant team to make sure the findings make clinical sense.
-  </p>
+  At UCSF, I work with <strong>clinical and operational datasets</strong> paired with <strong>high-dimensional biomedical data</strong>.
+  For my capstone, I’m analyzing <strong>CyTOF data</strong> from <strong>kidney transplant patients</strong> to identify
+  <strong>immune cell signatures</strong> that differentiate <strong>acute rejection</strong> from <strong>stable graft function</strong>.
+  I examine <strong>longitudinal changes</strong> across multiple post-transplant timepoints and apply <strong>statistical methods</strong>
+  to identify patterns associated with rejection outcomes. I work closely with the <strong>transplant clinical team</strong>
+  to ensure the findings are clinically meaningful.
+</p>
+
   <p>
     I also spend time on scleroderma-related lung disease, integrating single-cell RNA sequencing with patient data. Here, I'm mapping out cell-to-cell communication networks in lung tissue to understand how immune dysregulation drives disease progression. The work is similar—finding patterns in messy biological data and collaborating with clinicians to figure out what actually matters for patient care.
   </p>
@@ -79,6 +85,8 @@ permalink: /about/
   </div>
 </div>
 
+
+
 <div class="rp-card">
   <div class="rp-title">Research & Professional Experience</div>
 
@@ -99,13 +107,13 @@ permalink: /about/
         Will evaluate microbiome-focused AI platforms, with a focus on data modalities, analytical pipelines, and clinical feasibility; supporting documentation and cross-functional reviews.
       </span>
     </div>
-    <div class="rp-right rp-muted">Starting 2025</div>
+    <div class="rp-right rp-muted">2025 - Present</div>
   </div>
 
   <div class="rp-row">
     <div class="rp-left">
       <strong>Graduate Researcher</strong> — UCSF (Dr. Sirota & Dr. Sarwal’s Lab)<br/>
-      <span class="rp-muted">Integrating single-cell CyTOF with clinical data; preprocessing, metadata management, QC, clinician collaboration.</span>
+      <span class="rp-muted">Integrating single-cell CyTOF with clinical data; preprocessing, metadata management, statistical analysis, clinician collaboration.</span>
     </div>
     <div class="rp-right rp-muted">Jun 2025 – Present</div>
   </div>
@@ -125,6 +133,28 @@ permalink: /about/
     </div>
     <div class="rp-right rp-muted">Jul 2020 – Aug 2024</div>
   </div>
+
+  <div class="rp-row">
+    <div class="rp-left">
+      <strong>Intern</strong> — SNP Genetics, Inc.<br/>
+      <span class="rp-muted">
+        Supported genetic disease analysis using DNA sequencing and SNP genotyping; assisted with laboratory workflows and statistical analysis.
+      </span>
+    </div>
+    <div class="rp-right rp-muted">Jan 2019</div>
+  </div>
+
+  <div class="rp-row">
+    <div class="rp-left">
+      <strong>Research Assistant</strong> — Plant Gene Regulation Lab, Sogang University<br/>
+      <span class="rp-muted">
+        Conducted molecular biology experiments to study gene regulation under salt stress, including cloning, transformation, and phenotypic analysis.
+      </span>
+    </div>
+    <div class="rp-right rp-muted">Jan 2018 – Jul 2019</div>
+  </div>
+
+
 </div>
 
 <div class="rp-card">
@@ -155,42 +185,25 @@ permalink: /about/
   </div>
 </div>
 
+<div class="rp-card">
+  <div class="rp-title">Technical Skills (Coding)</div>
+  <div class="rp-chips">
+    <!-- Core languages -->
+    <span class="rp-chip">Python</span>
+    <span class="rp-chip">R</span>
+    <span class="rp-chip">SQL</span>
 
+    <!-- Data analysis & workflows -->
+    <span class="rp-chip">Data Wrangling</span>
+    <span class="rp-chip">Statistical Analysis</span>
+    <span class="rp-chip">Exploratory Data Analysis</span>
 
+    <!-- Scientific / healthcare tooling -->
+    <span class="rp-chip">Single-cell Analysis Pipelines</span>
+    <span class="rp-chip">Clinical Data Processing</span>
 
-
-
-
-
-
-
-
-
-
-
-## 👩🏻 Research Overview
-
-I’m **SeonMin Kim**—a data scientist with a regulatory background, passionate about making healthcare smarter and more equitable through AI. After several years leading FDA and MFDS submissions in the pharmaceutical industry, I pivoted into data science to help healthcare systems move beyond compliance and toward precision.
-
-Currently at UCSF, I work with large-scale clinical and operational datasets—**from EHRs and digital health signals to single-cell omics (CyTOF)**—to uncover actionable insights using statistical modeling, machine learning, and structured reporting. My recent projects include adverse event detection, regulatory strategy modeling, and digital biomarker development for dementia care.
-
-I’m especially interested in:
-- Enabling **regulatory intelligence** with LLMs and structured biomedical data
-- Developing **predictive models** from real-world clinical workflows
-- Designing **explainable AI tools** that clinicians and regulators can trust
-
-I’m skilled in Python, R, and SQL, and I’m building deeper expertise in applying AI for healthcare, product development, and real-world evidence generation. I’m an effective communicator and collaborator, with experience aligning scientific, technical, and regulatory teams around data-driven initiatives.
-
-Outside of work, I’m usually planning my next camping trip, exploring new food spots, or relaxing over coffee with friends—because a well-fed mind works better. 
-
-> 🔮 Bridging healthcare, technology, and regulatory science to drive data-driven innovation.
-{:.lead}
-
----
-
-## 📧 Get In Touch
-
-Interested in collaboration or want to learn more about my work? Feel free to reach out!
-
-[View Projects](projects.md){:.btn.btn-outline-primary.btn-sm}
-[Contact Me](contact.md){:.btn.btn-outline-primary.btn-sm}
+    <!-- Reproducibility & engineering hygiene -->
+    <span class="rp-chip">Reproducible Workflows</span>
+    <span class="rp-chip">Version Control (Git)</span>
+  </div>
+</div>
