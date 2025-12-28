@@ -6,8 +6,6 @@ hide_title: true
 ---
 
 <div class="rp-hero">
-  <div class="rp-kicker">PERSONAL PROFILE</div>
-  <h1 class="rp-hero-title">Beyond research and code.</h1>
   <p class="rp-hero-sub">
     Cities I’ve lived in, worked from, and explored along the way.
   </p>
