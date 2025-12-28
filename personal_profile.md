@@ -66,8 +66,8 @@ hide_title: true
 
   <div class="rp-carousel" aria-label="Marathons carousel">
     <figure class="rp-tile">
-      <img src="{{ '/assets/img/sfmarathon.png' | relative_url }}" alt="CIM Marathon" loading="lazy">
-      <figcaption>CIM Marathon</figcaption>
+      <img src="{{ '/assets/img/sfmarathon.png' | relative_url }}" alt="SF Marathon" loading="lazy">
+      <figcaption>SF Marathon</figcaption>
     </figure>
 
     <figure class="rp-tile">
