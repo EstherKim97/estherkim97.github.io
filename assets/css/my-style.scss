@@ -12,3 +12,17 @@
     margin: 1rem 0;
   }
 }
+
+
+.typed-text {
+  font-weight: 800;
+}
+
+.typed-cursor {
+  animation: blink 1s step-end infinite;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}

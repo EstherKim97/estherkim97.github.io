@@ -11,3 +11,5 @@ hide_description: true
   <span id="typed-text" class="typed-text"></span><span class="typed-cursor" aria-hidden="true">|</span><br />
   for real-world healthcare.
 </h1>
+
+<script src="{{ '/assets/js/typed-hero.js' | relative_url }}"></script>
