@@ -9,7 +9,7 @@ permalink: /about/
 <div class="rp-card">
   <div class="rp-title">Profile</div>
   <p>
-    I'm <strong>SeonMin Kim<strong> — a <strong>health-focused data scientist<strong> with a regulatory background. After several years <strong>leading FDA/MFDS-related regulatory work in the pharmaceutical industry<strong>, I pivoted into data science to support healthcare teams with stronger evidence generation and data-driven decision-making.
+    I'm <strong>SeonMin Kim</strong> — a <strong>health-focused data scientist</strong> with a regulatory background. After several years <strong>leading FDA/MFDS-related regulatory work in the pharmaceutical industry</strong>, I pivoted into data science to support healthcare teams with stronger evidence generation and data-driven decision-making.
   </p>
 </div>
 
