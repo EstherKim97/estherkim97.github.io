@@ -4,39 +4,12 @@ title: Research Profile
 permalink: /about/
 ---
 
-## Research Profile
-
-<!--author-->
-
 <!-- Top header block -->
 <div class="rp-hero">
   <div class="rp-hero-left">
     <div class="rp-kicker">RESEARCH PROFILE</div>
     <h1 class="rp-name">SeonMin Kim</h1>
     <div class="rp-affil">UCSF • M.S. Health Data Science (Expected May 2026)</div>
-
-    <div class="rp-icons">
-      <a class="rp-icon" href="https://www.linkedin.com/in/seon-min-kim" target="_blank" rel="noopener" aria-label="LinkedIn">
-        <!-- LinkedIn SVG -->
-        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
-          <path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8.5h4V24h-4V8.5zM8.5 8.5h3.8v2.1h.1c.53-1 1.84-2.1 3.8-2.1 4.06 0 4.8 2.67 4.8 6.14V24h-4v-7.87c0-1.88-.03-4.3-2.62-4.3-2.63 0-3.03 2.05-3.03 4.17V24h-4V8.5z"/>
-        </svg>
-      </a>
-
-      <a class="rp-icon" href="https://github.com/EstherKim97" target="_blank" rel="noopener" aria-label="GitHub">
-        <!-- GitHub SVG -->
-        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
-          <path fill="currentColor" d="M12 .5C5.73.5.75 5.62.75 12c0 5.1 3.29 9.42 7.86 10.95.58.11.79-.25.79-.56 0-.28-.01-1.2-.02-2.17-3.2.71-3.88-1.27-3.88-1.27-.52-1.36-1.28-1.72-1.28-1.72-1.05-.73.08-.72.08-.72 1.16.08 1.77 1.22 1.77 1.22 1.03 1.8 2.7 1.28 3.36.98.1-.77.4-1.28.73-1.57-2.56-.3-5.25-1.31-5.25-5.82 0-1.29.45-2.34 1.19-3.16-.12-.3-.52-1.52.11-3.17 0 0 .97-.32 3.18 1.21.92-.26 1.9-.39 2.88-.39.98 0 1.96.13 2.88.39 2.21-1.53 3.18-1.21 3.18-1.21.63 1.65.23 2.87.11 3.17.74.82 1.19 1.87 1.19 3.16 0 4.52-2.7 5.52-5.28 5.81.41.36.79 1.09.79 2.21 0 1.59-.02 2.87-.02 3.26 0 .31.21.68.8.56C19.96 21.42 23.25 17.1 23.25 12 23.25 5.62 18.27.5 12 .5z"/>
-        </svg>
-      </a>
-
-      <a class="rp-icon" href="mailto:sun.seon9759@gmail.com" aria-label="Email">
-        <!-- Mail SVG -->
-        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
-          <path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"/>
-        </svg>
-      </a>
-    </div>
   </div>
 
   <div class="rp-hero-right">
@@ -46,33 +19,33 @@ permalink: /about/
 
 <!-- Cards -->
 <div class="rp-card">
-  <div class="rp-title">Research Overview</div>
+  <div class="rp-title">Profile</div>
   <p>
-    I am currently pursuing my <strong>second master’s degree</strong> in <strong>Health Data Science</strong> at UCSF (Expected May 2026),
-    with a background in <strong>Pharmaceutical Sciences (M.S.)</strong> and <strong>Regulatory Affairs</strong>.
-    My work connects <strong>patient-level clinical data</strong> with <strong>biomedical signals</strong> (including single-cell modalities such as CyTOF),
-    aiming to generate insights that can translate to real-world healthcare settings.
+    I'm SeonMin Kim — a health-focused data scientist with a regulatory background. After several years leading FDA/MFDS-related regulatory work in the pharmaceutical industry, I pivoted into data science to support healthcare teams with stronger evidence generation and data-driven decision-making.
   </p>
 </div>
 
+
 <div class="rp-card">
-  <div class="rp-title">Profile</div>
+  <div class="rp-title">Research Overview</div>
   <p>
-    I’m SeonMin Kim — a health-focused data scientist with a regulatory background. After several years leading FDA/MFDS-related regulatory work
-    in the pharmaceutical industry, I pivoted into data science to support healthcare teams with stronger evidence generation and data-driven decision-making.
+    I'm pursuing my M.S. in <strong>Health Data Science</strong> at UCSF (expected May 2026), with a background in <strong>Pharmaceutical Sciences</strong> and <strong>Regulatory Affairs</strong>. My work connects <strong>patient-level clinical data</strong> with <strong>biomedical signals</strong>—particularly single-cell modalities like <strong>CyTOF and scRNA-seq</strong>.
   </p>
   <p>
-    At UCSF, I work with clinical and operational datasets and integrate them with biomedical data (e.g., CyTOF) to explore patterns in transplant rejection,
-    maintain structured workflows, and collaborate with clinicians to interpret results.
+    At UCSF, I work with clinical and operational datasets paired with high-dimensional biomedical data. For my capstone, I'm analyzing CyTOF data from kidney transplant patients to identify immune cell signatures that differentiate acute rejection from stable graft function. I'm looking at how cell populations shift across multiple timepoints post-transplant and using statistical methods to find which patterns actually predict rejection outcomes. I work closely with the transplant team to make sure the findings make clinical sense.
+  </p>
+  <p>
+    I also spend time on scleroderma-related lung disease, integrating single-cell RNA sequencing with patient data. Here, I'm mapping out cell-to-cell communication networks in lung tissue to understand how immune dysregulation drives disease progression. The work is similar—finding patterns in messy biological data and collaborating with clinicians to figure out what actually matters for patient care.
   </p>
 </div>
+
 
 <div class="rp-card">
   <div class="rp-title">Recent Updates</div>
   <ul class="rp-list">
-    <li><span class="rp-date">2025</span> Graduate Researcher at UCSF (CyTOF + clinical data integration)</li>
-    <li><span class="rp-date">2025</span> AI Product Evaluation Intern (multimodal data feasibility & validation considerations)</li>
-    <li><span class="rp-date">2025</span> QBI Hackathon: MaxBindAI (ML pipeline for drug–target binding affinity)</li>
+    <li><span class="rp-date">2025.Nov</span> Graduate Researcher, co-advised by the Sirota Lab and Monica Yang Lab at UCSF (single-cell RNA-seq analysis + scleroderma-related lung disease)</li>
+    <li><span class="rp-date">2025.Nov</span> AI Product Evaluation Intern (multimodal data feasibility & validation considerations)</li>
+    <li><span class="rp-date">2025.June</span> Graduate Researcher, co-advised by Sirota's lab and Sarwal's lab at UCSF (CyTOF + clinical data integration)</li>
   </ul>
 </div>
 
@@ -111,6 +84,26 @@ permalink: /about/
 
   <div class="rp-row">
     <div class="rp-left">
+      <strong>Graduate Researcher</strong> — UCSF (Dr. Sirota Lab & Yang Lab)<br/>
+      <span class="rp-muted">
+        Analyzing single-cell RNA-seq data to study cell–cell communication in scleroderma-related lung disease
+      </span>
+    </div>
+    <div class="rp-right rp-muted">2025 – Present</div>
+  </div>
+
+  <div class="rp-row">
+    <div class="rp-left">
+      <strong>AI Product Evaluation Intern</strong> — UCSF Innovation Ventures Catalyst Program<br/>
+      <span class="rp-muted">
+        Will evaluate microbiome-focused AI platforms, with a focus on data modalities, analytical pipelines, and clinical feasibility; supporting documentation and cross-functional reviews.
+      </span>
+    </div>
+    <div class="rp-right rp-muted">Starting 2025</div>
+  </div>
+
+  <div class="rp-row">
+    <div class="rp-left">
       <strong>Graduate Researcher</strong> — UCSF (Dr. Sirota & Dr. Sarwal’s Lab)<br/>
       <span class="rp-muted">Integrating single-cell CyTOF with clinical data; preprocessing, metadata management, QC, clinician collaboration.</span>
     </div>
@@ -137,10 +130,26 @@ permalink: /about/
 <div class="rp-card">
   <div class="rp-title">Current Interests</div>
   <div class="rp-chips">
+    <!-- Core direction -->
+    <span class="rp-chip">Precision Medicine</span>
     <span class="rp-chip">Clinical AI</span>
+
+    <!-- Data types -->
     <span class="rp-chip">Clinical Data</span>
     <span class="rp-chip">Biomedical Data</span>
+    <span class="rp-chip">Real-World Data (RWD)</span>
+    <span class="rp-chip">Real-World Evidence (RWE)</span>
+
+    <!-- Modalities -->
     <span class="rp-chip">Single-cell (CyTOF / scRNA-seq)</span>
+    <span class="rp-chip">Multimodal Health Data</span>
+
+    <!-- Analysis focus -->
+    <span class="rp-chip">Cell–Cell Communication</span>
+    <span class="rp-chip">Clinical Phenotyping</span>
+    <span class="rp-chip">Cohort Definition</span>
+
+    <!-- Practice -->
     <span class="rp-chip">Model Output Review</span>
     <span class="rp-chip">Documentation & Reproducibility</span>
   </div>
