@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Research Profile
-permalink: /about/
+permalink: /research_profile/
 ---
-
 
 <!-- Cards -->
 <div class="rp-card">
