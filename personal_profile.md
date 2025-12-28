@@ -1,13 +1,11 @@
 ---
 layout: page
-title: Personal Profile
+title: Beyond research and code
 permalink: /personal_profile/
 hide_title: true
 ---
 
 <div class="rp-hero">
-  <div class="rp-kicker">PERSONAL PROFILE</div>
-  <h1 class="rp-hero-title">Beyond research and code.</h1>
   <p class="rp-hero-sub">
     Cities I’ve lived in, worked from, and explored along the way.
   </p>
@@ -17,21 +15,21 @@ hide_title: true
   <div class="rp-title">Cities I've lived</div>
 
   <div class="rp-carousel" aria-label="Travel photos carousel">
-    <!-- Replace image paths + captions with yours -->
     <figure class="rp-tile">
-      <img src="/assets/img/singapore.jpeg" alt="Singapore" loading="lazy">
-      <figcaption>Singapore.</figcaption>
+      <img src="/assets/img/sanfrancisco.png" alt="San Francisco, USA" loading="lazy">
+      <figcaption>San Francisco, USA</figcaption>
     </figure>
 
     <figure class="rp-tile">
-      <img src="/assets/img/korea.jpeg" alt="Seoul, South Korea" loading="lazy">
+      <img src="/assets/img/korea.png" alt="Seoul, South Korea" loading="lazy">
       <figcaption>Seoul, South Korea</figcaption>
     </figure>
 
     <figure class="rp-tile">
-      <img src="/assets/img/sanfrancisco.jpeg" alt="San Francisco, USA" loading="lazy">
-      <figcaption>San Francisco, USA</figcaption>
+      <img src="/assets/img/singapore.png" alt="Singapore" loading="lazy">
+      <figcaption>Singapore.</figcaption>
     </figure>
+
   </div>
 </div>
 
@@ -40,7 +38,7 @@ hide_title: true
 
   <div class="rp-carousel" aria-label="Travel photos carousel">
     <figure class="rp-tile">
-      <img src="/assets/img/antelopecanyon.jpeg" alt="Antelope Canyon" loading="lazy">
+      <img src="/assets/img/antelopecanyon.png" alt="Antelope Canyon" loading="lazy">
       <figcaption>Antelope Canyon.</figcaption>
     </figure>
 
@@ -50,12 +48,12 @@ hide_title: true
     </figure>
 
     <figure class="rp-tile">
-      <img src="/assets/img/grandcanyon.jpeg" alt="Grand Canyon" loading="lazy">
+      <img src="/assets/img/grandcanyon.png" alt="Grand Canyon" loading="lazy">
       <figcaption>Grand Canyon</figcaption>
     </figure>
 
     <figure class="rp-tile">
-      <img src="/assets/img/zion.jpeg" alt="Zion" loading="lazy">
+      <img src="/assets/img/zion.png" alt="Zion" loading="lazy">
       <figcaption>Zion</figcaption>
     </figure>
 
@@ -86,12 +84,12 @@ hide_title: true
   <div class="rp-carousel" aria-label="Running photos carousel">
     <!-- Replace image paths + captions with yours -->
     <figure class="rp-tile">
-      <img src="/assets/img/sfmarathon.jpeg" alt="CIM Marathon" loading="lazy">
+      <img src="/assets/img/sfmarathon.png" alt="CIM Marathon" loading="lazy">
       <figcaption>CIM Marathon</figcaption>
     </figure>
 
     <figure class="rp-tile">
-      <img src="/assets/img/honolulu.heic" alt="Honolulu Marathon" loading="lazy">
+      <img src="/assets/img/honolulu.png" alt="Honolulu Marathon" loading="lazy">
       <figcaption>Honolulu Marathon</figcaption>
     </figure>
 
