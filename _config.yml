@@ -66,12 +66,12 @@ menu:
     url: /research_profile/
   - title: Personal Profile
     url: /personal_profile/
+  - title: Publications
+    url: /publications/
   - title: Projects
     url: /projects/
   - title: Resume
     url: /resume/
-  - title: Contact
-    url: /contact/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
