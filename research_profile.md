@@ -4,17 +4,6 @@ title: Research Profile
 permalink: /about/
 ---
 
-<!-- Top header block -->
-<div class="rp-hero">
-  <div class="rp-hero-left">
-    <h1 class="rp-name">SeonMin Kim</h1>
-    <div class="rp-affil">UCSF • M.S. Health Data Science (Expected May 2026)</div>
-  </div>
-
-  <div class="rp-hero-right">
-    <img class="rp-avatar" src="{{ '/assets/img/portfolio_pic.JPG' | relative_url }}" alt="SeonMin Kim profile photo" />
-  </div>
-</div>
 
 <!-- Cards -->
 <div class="rp-card">
@@ -32,13 +21,13 @@ permalink: /about/
   </p>
   
   <p>
-  At UCSF, I work with <strong>clinical and operational datasets</strong> paired with <strong>high-dimensional biomedical data</strong>.
-  For my capstone, I’m analyzing <strong>CyTOF data</strong> from <strong>kidney transplant patients</strong> to identify
-  <strong>immune cell signatures</strong> that differentiate <strong>acute rejection</strong> from <strong>stable graft function</strong>.
-  I examine <strong>longitudinal changes</strong> across multiple post-transplant timepoints and apply <strong>statistical methods</strong>
-  to identify patterns associated with rejection outcomes. I work closely with the <strong>transplant clinical team</strong>
-  to ensure the findings are clinically meaningful.
-</p>
+    At UCSF, I work with <strong>clinical and operational datasets</strong> paired with <strong>high-dimensional biomedical data</strong>.
+    For my capstone, I’m analyzing <strong>CyTOF data</strong> from <strong>kidney transplant patients</strong> to identify
+    <strong>immune cell signatures</strong> that differentiate <strong>acute rejection</strong> from <strong>stable graft function</strong>.
+    I examine <strong>longitudinal changes</strong> across multiple post-transplant timepoints and apply <strong>statistical methods</strong>
+    to identify patterns associated with rejection outcomes. I work closely with the <strong>transplant clinical team</strong>
+    to ensure the findings are clinically meaningful.
+  </p>
 
   <p>
     I also spend time on scleroderma-related lung disease, integrating single-cell RNA sequencing with patient data. Here, I'm mapping out cell-to-cell communication networks in lung tissue to understand how immune dysregulation drives disease progression. The work is similar—finding patterns in messy biological data and collaborating with clinicians to figure out what actually matters for patient care.
