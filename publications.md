@@ -6,8 +6,6 @@ hide_title: true
 ---
 
 <div class="rp-hero">
-  <div class="rp-kicker">PUBLICATIONS</div>
-  <h1 class="rp-hero-title">Research Outputs</h1>
   <p class="rp-hero-sub">
     Peer-reviewed publications, preprints, and research outputs.
   </p>
