@@ -5,13 +5,87 @@ description: >
   Health-focused data scientist with expertise in pharmaceutical sciences, regulatory affairs, and AI applications for healthcare.
 hide_description: true
 ---
----
-layout: about
-image: /assets/img/portfolio_pic.JPG
-description: >
-  Health-focused data scientist with expertise in pharmaceutical sciences, regulatory affairs, and AI applications for healthcare.
-hide_description: true
----
+<style>
+/* Network animation - MUCH SMALLER */
+.hero-visual {
+  max-width: 180px !important;
+  margin-left: auto;
+  margin-bottom: 20px;
+  animation: fadeUp 0.9s ease-out both;
+}
+
+.hero-visual dotlottie-player {
+  width: 100% !important;
+  height: 180px !important;
+  border-radius: 20px;
+  background: transparent !important;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Typewriter text - BLUE */
+#typed-text,
+.typed-text {
+  font-weight: 800 !important;
+  color: #2F3CFF !important;
+}
+
+.typed-cursor {
+  animation: blink 1s step-end infinite;
+  margin-left: 2px;
+  color: #2F3CFF !important;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* Hero subtitle */
+.hero-subtitle {
+  margin-top: 18px;
+  max-width: 640px;
+  color: #6B7280;
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+/* Keyword chips - WITH BORDERS */
+.hero-chips {
+  margin-top: 18px;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px 12px !important;
+}
+
+.hero-chips .chip,
+.chip {
+  display: inline-block !important;
+  padding: 8px 16px !important;
+  border: 2px solid #2F3CFF !important;
+  border-radius: 999px !important;
+  background: #ffffff !important;
+  color: #2F3CFF !important;
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+  line-height: 1.2 !important;
+  transition: all 0.2s ease !important;
+}
+
+.hero-chips .chip:hover,
+.chip:hover {
+  background: #2F3CFF !important;
+  color: #ffffff !important;
+}
+</style>
 
 <div class="hero-visual">
   <dotlottie-player
@@ -23,10 +97,7 @@ hide_description: true
   </dotlottie-player>
 </div>
 
-<script
-  type="module"
-  src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs">
-</script>
+<script type="module" src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"></script>
 
 <h1 class="hero-title">
   I explore<br />
