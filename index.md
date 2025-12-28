@@ -10,20 +10,22 @@ hide_description: true
 /* Container for side-by-side layout */
 .hero-container {
   display: flex;
-  align-items: center;
-  gap: 40px;
+  align-items: flex-start;
+  gap: 60px;
   margin-bottom: 30px;
 }
 
 .hero-content {
   flex: 1;
+  max-width: 700px;
 }
 
 /* Network animation - RIGHT SIDE */
 .hero-visual {
   flex-shrink: 0;
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
   animation: fadeUp 0.9s ease-out both;
 }
 
@@ -45,6 +47,12 @@ hide_description: true
   }
 }
 
+/* Hero title */
+.hero-title {
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
 /* Typewriter text - BLUE */
 #typed-text,
 .typed-text {
@@ -62,27 +70,28 @@ hide_description: true
   50% { opacity: 0; }
 }
 
-/* Hero subtitle */
+/* Hero subtitle - MORE SPACE FROM TITLE */
 .hero-subtitle {
-  margin-top: 18px;
-  max-width: 640px;
+  margin-top: 40px !important;
+  max-width: 650px;
   color: #6B7280;
   font-size: 1.05rem;
-  line-height: 1.45;
+  line-height: 1.6;
 }
 
-/* Keyword chips - WITH BORDERS */
+/* Keyword chips - MORE SPACE FROM SUBTITLE */
 .hero-chips {
-  margin-top: 18px;
+  margin-top: 35px !important;
   display: flex !important;
   flex-wrap: wrap !important;
-  gap: 10px 12px !important;
+  gap: 12px 14px !important;
+  max-width: 650px;
 }
 
 .hero-chips .chip,
 .chip {
   display: inline-block !important;
-  padding: 8px 16px !important;
+  padding: 10px 18px !important;
   border: 2px solid #2F3CFF !important;
   border-radius: 999px !important;
   background: #ffffff !important;
@@ -91,6 +100,7 @@ hide_description: true
   font-weight: 500 !important;
   line-height: 1.2 !important;
   transition: all 0.2s ease !important;
+  white-space: nowrap !important;
 }
 
 .hero-chips .chip:hover,
