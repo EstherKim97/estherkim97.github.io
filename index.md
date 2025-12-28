@@ -6,15 +6,6 @@ description: >
 hide_description: true
 ---
 
-
----
-layout: about
-image: /assets/img/portfolio_pic.JPG
-description: >
-  Health-focused data scientist with expertise in pharmaceutical sciences, regulatory affairs, and AI applications for healthcare.
-hide_description: true
----
-
 <style>
 /* Container for side-by-side layout */
 .hero-container {
