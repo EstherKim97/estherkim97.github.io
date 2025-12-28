@@ -1,9 +1,8 @@
 ---
-layout: redirect
+layout: page
 title: Resume
-description: >
-  SeonMin Kim's professional resume - Health Data Scientist with expertise in 
-  pharmaceutical sciences, regulatory affairs, and AI applications.
-redirect_to: /assets/files/Resume.pdf
-sitemap: false
 ---
+
+<iframe src="{{ '/assets/files/Resume.pdf' | relative_url }}" width="100%" height="800px" style="border: none;">
+  <p>Your browser does not support PDFs. <a href="{{ '/assets/files/Resume.pdf' | relative_url }}">Download the PDF</a>.</p>
+</iframe>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Personal Profile
-permalink: /personal/
+permalink: /personal_profile/
 hide_title: true
 ---
 
