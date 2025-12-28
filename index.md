@@ -5,7 +5,13 @@ description: >
   Health-focused data scientist with expertise in pharmaceutical sciences, regulatory affairs, and AI applications for healthcare.
 hide_description: true
 ---
-
+---
+layout: about
+image: /assets/img/portfolio_pic.JPG
+description: >
+  Health-focused data scientist with expertise in pharmaceutical sciences, regulatory affairs, and AI applications for healthcare.
+hide_description: true
+---
 
 <div class="hero-visual">
   <dotlottie-player
@@ -22,8 +28,6 @@ hide_description: true
   src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs">
 </script>
 
-
-
 <h1 class="hero-title">
   I explore<br />
   <span id="typed-text" class="typed-text"></span><span class="typed-cursor" aria-hidden="true">|</span><br />
@@ -31,7 +35,6 @@ hide_description: true
 </h1>
 
 <script src="{{ '/assets/js/typed-hero.js' | relative_url }}"></script>
-
 
 <p class="hero-subtitle">
   I build and evaluate data-driven methods that connect patient-level clinical data with biomedical signals,
