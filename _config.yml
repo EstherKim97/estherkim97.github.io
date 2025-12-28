@@ -64,6 +64,8 @@ include:
 menu:
   - title: Research Profile
     url: /research_profile/
+  - title: Personal Profile
+    url: /personal_profile/
   - title: Projects
     url: /projects/
   - title: Resume

@@ -125,3 +125,70 @@
   white-space: nowrap;   /* keep date on one line */
   color: rgba(0,0,0,.55);
 }
+
+
+/* ===== Personal Profile page additions ===== */
+
+.rp-hero {
+  margin: 0 0 18px 0;
+}
+
+.rp-kicker {
+  letter-spacing: .22em;
+  font-size: 0.8rem;
+  color: rgba(0,0,0,.45);
+  margin-bottom: 6px;
+}
+
+.rp-hero-title {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.05;
+  margin: 0 0 8px 0;
+}
+
+.rp-hero-sub {
+  font-size: 1.05rem;
+  color: rgba(0,0,0,.6);
+  margin: 0;
+}
+
+/* Horizontal carousel */
+.rp-carousel {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 12px 2px 6px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.rp-carousel::-webkit-scrollbar {
+  height: 10px;
+}
+
+.rp-tile {
+  flex: 0 0 auto;
+  width: min(320px, 78vw);
+  scroll-snap-align: start;
+  margin: 0;
+}
+
+.rp-tile img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+}
+
+.rp-tile figcaption {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: rgba(0,0,0,.65);
+}
+
+.rp-scrollhint {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: rgba(0,0,0,.45);
+}
