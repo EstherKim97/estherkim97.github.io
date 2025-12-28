@@ -63,7 +63,7 @@ include:
 # Add links to the sidebar.
 menu:
   - title: Research Profile
-    url: /about/
+    url: /research_profile/
   - title: Projects
     url: /projects/
   - title: Resume
