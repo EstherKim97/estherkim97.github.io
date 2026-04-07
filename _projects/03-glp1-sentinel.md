@@ -6,7 +6,7 @@ permalink: /03-glp1-sentinel/
 
 # GLP1-Sentinel
 
-![GLP1-Sentinel Project]({{ '/assets/img/projects/GLP1.png' | relative_url }}){:.lead width="800" height="400" loading="lazy"}
+![GLP1-Sentinel Project]({{ '/assets/img/projects/GLP-1.png' | relative_url }}){:.lead width="800" height="400" loading="lazy"}
 
 ## 🎯 Project Overview
 
