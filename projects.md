@@ -20,7 +20,7 @@
       CNN-based ligand affinity prediction for drug discovery - 2nd Prize Winner 🏆
     </p>
 
-    <a href="https://github.com/EstherKim97/02-maxbindai"
+    <a href="https://github.com/EstherKim97/MaxBind-AI"
        style="background: #007acc; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px;">
        GitHub
     </a>
@@ -51,7 +51,7 @@
       Machine learning platform for respiratory screening using cough acoustics
     </p>
 
-    <a href="https://github.com/EstherKim97/01-digitaltwin"
+    <a href="https://github.com/haile-teshome/DigitalTwin"
        style="background: #007acc; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px;">
        GitHub
     </a>

@@ -3,10 +3,7 @@ layout: page
 title: "MaxBindAI"
 permalink: /02-maxbindai/
 ---
-
-# MaxBindAI
-
-![MaxBindAI Project]({{ '/assets/img/projects/Myoglobin.png' | relative_url }}){:.lead width="800" height="400" loading="lazy"}
+![MaxBindAI Project]({{ '/assets/img/projects/Myoglobin.png' | relative_url }}){:.lead width="500" height="300" loading="lazy"}
 
 ## 🏆 2nd Prize Winner - QBI Innovation Hackathon
 

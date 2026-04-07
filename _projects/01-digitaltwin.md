@@ -3,10 +3,7 @@ layout: page
 title: "DigitalTwin: Cough-Based Respiratory Disease Detection"
 permalink: /01-digitaltwin/
 ---
-
-# DigitalTwin: Cough-Based Respiratory Disease Detection
-
-![DigitalTwin Project]({{ '/assets/img/projects/DigitalTwin.png' | relative_url }}){:.lead width="800" height="400" loading="lazy"}
+![DigitalTwin Project]({{ '/assets/img/projects/DigitalTwin.png' | relative_url }}){:.lead width="500" height="300" loading="lazy"}
 
 ## 🎯 Project Overview
 
