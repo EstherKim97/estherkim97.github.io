@@ -1,14 +1,66 @@
+<h2 style="margin-top: 30px;">📚 Published Research</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 10px 0 36px 0;">
+
+  <!-- Published Research 1 -->
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
+    <div>
+      <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">📖 Published</div>
+
+      <img src="{{ '/assets/img/projects/KnowledgeGraph.svg' | relative_url }}" 
+           alt="Published Research"
+           style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
+
+      <h3 style="margin-bottom: 6px;">
+        Selected Publications (excerpt)
+      </h3>
+
+      <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
+        Short list of peer-reviewed and conference publications — see attached CV excerpt for details.
+      </p>
+    </div>
+
+    <div style="display:flex; justify-content:flex-start; gap:8px;">
+      <span style="font-size: 11px; background: #eef2ff; color: #4338ca; padding: 4px 8px; border-radius: 999px;">📖 Published</span>
+    </div>
+  </div>
+
+  <!-- Published Research 2 -->
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
+    <div>
+      <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">📖 Published</div>
+
+      <img src="{{ '/assets/img/projects/Clinical-Trial-Eligibility-Criteria-Extraction.svg' | relative_url }}" 
+           alt="Published Research 2"
+           style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
+
+      <h3 style="margin-bottom: 6px;">
+        Research Briefs & Methods
+      </h3>
+
+      <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
+        Methodological summaries and published study excerpts — see attached for concise listing.
+      </p>
+    </div>
+
+    <div style="display:flex; justify-content:flex-start; gap:8px;">
+      <span style="font-size: 11px; background: #eef2ff; color: #4338ca; padding: 4px 8px; border-radius: 999px;">📖 Published</span>
+    </div>
+  </div>
+
+</div>
+
 <h2 style="margin-top: 30px;">🧠 ML / MODELING</h2>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 15px 0 30px 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 10px 0 36px 0;">
 
   <!-- MaxBindAI Project -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08);">
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
     <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🧠 ML</div>
 
-    <img src="{{ '/assets/img/projects/Myoglobin.png' | relative_url }}" 
-         alt="MaxBindAI"
-         style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
+        <img src="{{ '/assets/img/projects/Myoglobin.png' | relative_url }}" 
+          alt="MaxBindAI"
+          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
 
     <h3 style="margin-bottom: 6px;">
       <a href="{{ '/02-maxbindai/' | relative_url }}" style="text-decoration: none; color: #333;">
@@ -32,12 +84,12 @@
   </div>
 
   <!-- Clinical Trial Eligibility Extraction -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08);">
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
     <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🧠 ML</div>
 
-    <img src="{{ '/assets/img/projects/Clinical-Trial-Eligibility-Criteria-Extraction.svg' | relative_url }}" 
-         alt="Clinical Trial Eligibility Criteria Extraction"
-         style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
+        <img src="{{ '/assets/img/projects/Clinical-Trial-Eligibility-Criteria-Extraction.svg' | relative_url }}" 
+          alt="Clinical Trial Eligibility Criteria Extraction"
+          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
 
     <h3 style="margin-bottom: 6px;">
       <a href="https://github.com/EstherKim97/Clinical-Trial-Eligibility-Criteria-Extraction" style="text-decoration: none; color: #333;">
@@ -62,17 +114,17 @@
 
 </div>
 
-<h2 style="margin-top: 10px;">🚀 APPLICATION / PRODUCT</h2>
+<h2 style="margin-top: 30px;">🚀 APPLICATION / PRODUCT</h2>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 15px 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 10px 0 36px 0;">
 
   <!-- DigitalTwin Project -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08);">
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
     <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🚀 END-TO-END</div>
 
-    <img src="{{ '/assets/img/projects/DigitalTwin.png' | relative_url }}" 
-         alt="DigitalTwin"
-         style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
+        <img src="{{ '/assets/img/projects/DigitalTwin.png' | relative_url }}" 
+          alt="DigitalTwin"
+          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
 
     <h3 style="margin-bottom: 6px;">
       <a href="{{ '/01-digitaltwin/' | relative_url }}" style="text-decoration: none; color: #333;">
@@ -96,12 +148,12 @@
   </div>
 
   <!-- GLP1-Sentinel Project -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08);">
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
     <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🚀 END-TO-END</div>
 
-    <img src="{{ '/assets/img/projects/GLP1.png' | relative_url }}" 
-         alt="GLP1-Sentinel"
-         style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
+        <img src="{{ '/assets/img/projects/GLP1.png' | relative_url }}" 
+          alt="GLP1-Sentinel"
+          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
 
     <h3 style="margin-bottom: 6px;">
       <a href="{{ '/03-glp1-sentinel/' | relative_url }}" style="text-decoration: none; color: #333;">
@@ -125,12 +177,12 @@
   </div>
 
   <!-- mhealth_abtesting -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08);">
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
     <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🚀 END-TO-END</div>
 
-    <img src="{{ '/assets/img/projects/mhealth_abtesting.svg' | relative_url }}" 
-         alt="mhealth_abtesting"
-         style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
+        <img src="{{ '/assets/img/projects/mhealth_abtesting.svg' | relative_url }}" 
+          alt="mhealth_abtesting"
+          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
 
     <h3 style="margin-bottom: 6px;">
       <a href="https://github.com/EstherKim97/mhealth_abtesting" style="text-decoration: none; color: #333;">
@@ -155,17 +207,17 @@
   
 </div>
 
-<h2 style="margin-top: 10px;">🕸️ DATA & KNOWLEDGE SYSTEMS</h2>
+<h2 style="margin-top: 30px;">🕸️ DATA & KNOWLEDGE SYSTEMS</h2>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 15px 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 10px 0 36px 0;">
 
   <!-- KnowledgeGraph -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08);">
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
     <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🕸️ DATA/NLP</div>
 
-    <img src="{{ '/assets/img/projects/KnowledgeGraph.svg' | relative_url }}" 
-         alt="KnowledgeGraph"
-         style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
+        <img src="{{ '/assets/img/projects/KnowledgeGraph.svg' | relative_url }}" 
+          alt="KnowledgeGraph"
+          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
 
     <h3 style="margin-bottom: 6px;">
       <a href="https://github.com/EstherKim97/KnowledgeGraph" style="text-decoration: none; color: #333;">
@@ -189,12 +241,12 @@
   </div>
 
   <!-- AuData -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08);">
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
     <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🕸️ DATA/NLP</div>
 
-    <img src="{{ '/assets/img/projects/AuData.svg' | relative_url }}" 
-         alt="AuData"
-         style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px; margin-bottom: 10px;">
+        <img src="{{ '/assets/img/projects/AuData.svg' | relative_url }}" 
+          alt="AuData"
+          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
 
     <h3 style="margin-bottom: 6px;">
       <a href="https://github.com/haile-teshome/AuData" style="text-decoration: none; color: #333;">
