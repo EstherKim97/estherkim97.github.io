@@ -5,7 +5,7 @@
   <!-- Published Research 1 -->
   <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
     <div>
-      <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">📖 Published</div>
+      <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">📖 In preparation</div>
 
       <img src="{{ '/assets/img/projects/KnowledgeGraph.svg' | relative_url }}" 
            alt="Kidney transplant cohort"
@@ -26,14 +26,14 @@
 
     <div style="display:flex; justify-content:flex-start; gap:8px;">
       <a href="/08-selected-publications/" style="background:#007acc;color:white;padding:6px 12px;border-radius:4px;text-decoration:none;font-size:13px;">Details</a>
-      <span style="font-size:11px;background:#eef2ff;color:#4338ca;padding:4px 8px;border-radius:999px;">📖 Published</span>
+      <span style="font-size:11px;background:#eef2ff;color:#4338ca;padding:4px 8px;border-radius:999px;">📖 In preparation</span>
     </div>
   </div>
 
   <!-- Published Research 2 -->
   <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
     <div>
-      <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">📖 Published</div>
+      <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">📖 In preparation</div>
 
       <img src="{{ '/assets/img/projects/Clinical-Trial-Eligibility-Criteria-Extraction.svg' | relative_url }}" 
            alt="Scleroderma scRNA-seq"
@@ -53,7 +53,7 @@
 
     <div style="display:flex; justify-content:flex-start; gap:8px;">
       <a href="/09-research-briefs-methods/" style="background:#007acc;color:white;padding:6px 12px;border-radius:4px;text-decoration:none;font-size:13px;">Details</a>
-      <span style="font-size:11px;background:#eef2ff;color:#4338ca;padding:4px 8px;border-radius:999px;">📖 Published</span>
+      <span style="font-size:11px;background:#eef2ff;color:#4338ca;padding:4px 8px;border-radius:999px;">📖 In preparation</span>
     </div>
   </div>
 

@@ -5,6 +5,8 @@ permalink: /09-research-briefs-methods/
 ---
 ## Scleroderma scRNA-seq — CellChat analysis
 
+**Status:** Manuscript in preparation (to be published)
+
 • Analyzed single-cell RNA-seq data from scleroderma-associated interstitial lung disease using CellChat to identify disease-specific cell–cell signaling networks.
 
 ## Research Briefs & Methods (excerpt)
