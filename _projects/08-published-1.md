@@ -3,8 +3,10 @@ layout: page
 title: "Selected Publications"
 permalink: /08-selected-publications/
 ---
-## Selected Publications (excerpt)
+## Multi-omics Kidney Transplant Cohort
 
-This page links to a short excerpt of peer-reviewed and conference publications; the full list is available in the attached CV excerpt.
+• Led statistical design and end-to-end analysis of a multimodal kidney transplant longitudinal cohort, integrating 42-marker CyTOF (~32.3M cells), metabolomics, and clinical data; applied multiple-testing correction, Random Forest, and nested cross-validation.
 
-Attached excerpt: concise publication list and roles.
+• Identified candidate immune-metabolic biomarkers for pre-transplant kidney allograft rejection risk stratification, providing evidence for future validation studies and clinical decision support.
+
+• Built reproducible R pipelines integrating multi-omics and clinical data into publication-ready analyses, collaborating with transplant clinicians to assess clinical relevance.

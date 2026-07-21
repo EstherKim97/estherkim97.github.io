@@ -8,20 +8,25 @@
       <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">📖 Published</div>
 
       <img src="{{ '/assets/img/projects/KnowledgeGraph.svg' | relative_url }}" 
-           alt="Published Research"
+           alt="Kidney transplant cohort"
            style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
 
       <h3 style="margin-bottom: 6px;">
-        Selected Publications (excerpt)
+        Multi-omics Kidney Transplant Cohort
       </h3>
 
-      <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
-        Short list of peer-reviewed and conference publications — see attached CV excerpt for details.
-      </p>
+      <div style="color: #666; font-size: 14px; margin-bottom: 10px;">
+        <ul style="margin:0 0 8px 18px; padding:0;">
+          <li>Led statistical design and end-to-end analysis of a multimodal kidney transplant longitudinal cohort integrating 42-marker CyTOF (~32.3M cells), metabolomics, and clinical data.</li>
+          <li>Identified candidate immune-metabolic biomarkers for pre-transplant allograft rejection risk stratification, supporting future validation and clinical decision support.</li>
+          <li>Built reproducible R pipelines integrating multi-omics and clinical data into publication-ready analyses, collaborating with transplant clinicians.</li>
+        </ul>
+      </div>
     </div>
 
     <div style="display:flex; justify-content:flex-start; gap:8px;">
-      <span style="font-size: 11px; background: #eef2ff; color: #4338ca; padding: 4px 8px; border-radius: 999px;">📖 Published</span>
+      <a href="/08-selected-publications/" style="background:#007acc;color:white;padding:6px 12px;border-radius:4px;text-decoration:none;font-size:13px;">Details</a>
+      <span style="font-size:11px;background:#eef2ff;color:#4338ca;padding:4px 8px;border-radius:999px;">📖 Published</span>
     </div>
   </div>
 
@@ -31,20 +36,24 @@
       <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">📖 Published</div>
 
       <img src="{{ '/assets/img/projects/Clinical-Trial-Eligibility-Criteria-Extraction.svg' | relative_url }}" 
-           alt="Published Research 2"
+           alt="Scleroderma scRNA-seq"
            style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
 
       <h3 style="margin-bottom: 6px;">
-        Research Briefs & Methods
+        Scleroderma scRNA-seq — CellChat analysis
       </h3>
 
-      <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
-        Methodological summaries and published study excerpts — see attached for concise listing.
-      </p>
+      <div style="color: #666; font-size: 14px; margin-bottom: 10px;">
+        <ul style="margin:0 0 8px 18px; padding:0;">
+          <li>Analyzed single-cell RNA-seq data from scleroderma-associated interstitial lung disease.</li>
+          <li>Used CellChat to identify disease-specific cell–cell signaling networks.</li>
+        </ul>
+      </div>
     </div>
 
     <div style="display:flex; justify-content:flex-start; gap:8px;">
-      <span style="font-size: 11px; background: #eef2ff; color: #4338ca; padding: 4px 8px; border-radius: 999px;">📖 Published</span>
+      <a href="/09-research-briefs-methods/" style="background:#007acc;color:white;padding:6px 12px;border-radius:4px;text-decoration:none;font-size:13px;">Details</a>
+      <span style="font-size:11px;background:#eef2ff;color:#4338ca;padding:4px 8px;border-radius:999px;">📖 Published</span>
     </div>
   </div>
 
