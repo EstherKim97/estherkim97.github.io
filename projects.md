@@ -7,9 +7,7 @@
     <div>
       <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">📖 In preparation</div>
 
-      <img src="{{ '/assets/img/projects/KnowledgeGraph.svg' | relative_url }}" 
-           alt="Kidney transplant cohort"
-           style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
+      <div style="height:160px; display:flex; align-items:center; justify-content:center; background:#f3f4f6; border-radius:4px; color:#666; margin-bottom:12px;">Image omitted — in preparation</div>
 
       <h3 style="margin-bottom: 6px;">
         Multi-omics Kidney Transplant Cohort
@@ -35,9 +33,7 @@
     <div>
       <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">📖 In preparation</div>
 
-      <img src="{{ '/assets/img/projects/Clinical-Trial-Eligibility-Criteria-Extraction.svg' | relative_url }}" 
-           alt="Scleroderma scRNA-seq"
-           style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
+      <div style="height:160px; display:flex; align-items:center; justify-content:center; background:#f3f4f6; border-radius:4px; color:#666; margin-bottom:12px;">Image omitted — in preparation</div>
 
       <h3 style="margin-bottom: 6px;">
         Scleroderma scRNA-seq — CellChat analysis
@@ -209,6 +205,29 @@
     </div>
 
     <a href="https://github.com/EstherKim97/mhealth_abtesting"
+       style="background: #007acc; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px;">
+       GitHub
+    </a>
+  </div>
+  
+  <!-- SeaTRAC TB Hack Day -->
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
+    <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🏥 Hackathon</div>
+
+    <img src="{{ '/assets/img/projects/seatrac-hackday.svg' | relative_url }}" 
+         alt="SeaTRAC TB Hack Day"
+         style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
+
+    <h3 style="margin-bottom: 6px;">SeaTRAC TB Hack Day</h3>
+
+    <p style="color: #666; font-size: 14px; margin-bottom: 10px;">Collaborative TB clinical-trial dataset profiling hack day (Feb 11, 2026). Participated at UCSF — exploratory analyses using the event repository.</p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
+      <span style="font-size: 11px; background: #ecfeff; color: #0f766e; padding: 4px 8px; border-radius: 999px;">🏥 Hackathon</span>
+      <span style="font-size: 11px; background: #fef3c7; color: #92400e; padding: 4px 8px; border-radius: 999px;">👥 TEAM</span>
+    </div>
+
+    <a href="https://github.com/agartland/seatrac-hackday-2026"
        style="background: #007acc; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px;">
        GitHub
     </a>
