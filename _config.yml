@@ -36,6 +36,11 @@ picture: /assets/img/portfolio_pic.JPG
 # A list of keywords for your blog
 keywords: [data science, healthcare, AI, machine learning, regulatory affairs, pharmaceutical]
 
+# Override the theme favicon and Apple touch icon with versioned assets so the
+# browser picks up the updated icon instead of the cached default one.
+favicon: /assets/icons/favicon-v2.ico
+apple_touch_icon: /assets/icons/icon-192x192-v2.png
+
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
