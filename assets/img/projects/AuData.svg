@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="24" fill="#312e81"/>
+  <rect x="140" y="130" width="520" height="240" rx="24" fill="#eef2ff"/>
+  <path d="M240 300c40-80 120-120 220-120 60 0 120 22 160 60" stroke="#6366f1" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <circle cx="240" cy="300" r="18" fill="#ef4444"/>
+  <circle cx="460" cy="180" r="18" fill="#f59e0b"/>
+  <circle cx="600" cy="240" r="18" fill="#10b981"/>
+  <text x="400" y="392" text-anchor="middle" font-size="34" font-family="Arial, sans-serif" fill="#f8fafc">AuData</text>
+</svg>

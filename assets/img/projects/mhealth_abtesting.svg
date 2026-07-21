@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="24" fill="#1e293b"/>
+  <rect x="170" y="140" width="460" height="220" rx="20" fill="#f8fafc"/>
+  <path d="M230 300 L310 250 L390 280 L470 210 L560 180" stroke="#2563eb" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="230" cy="300" r="10" fill="#ef4444"/>
+  <circle cx="310" cy="250" r="10" fill="#f59e0b"/>
+  <circle cx="390" cy="280" r="10" fill="#10b981"/>
+  <circle cx="470" cy="210" r="10" fill="#8b5cf6"/>
+  <circle cx="560" cy="180" r="10" fill="#0f766e"/>
+  <text x="400" y="392" text-anchor="middle" font-size="34" font-family="Arial, sans-serif" fill="#f8fafc">mHealth A/B Testing</text>
+</svg>
