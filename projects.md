@@ -1,3 +1,43 @@
+<h2 style="margin-top: 30px;">⚖️ Regulatory Sciences & Intelligence</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 10px 0 36px 0;">
+
+  <!-- FDA Device / Digital Health Pathway Intelligence -->
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
+    <div>
+      <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">⚖️ Regulatory Sciences</div>
+
+      <div style="height:160px; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, #eff6ff, #dbeafe); border-radius:4px; color:#1d4ed8; margin-bottom:12px; text-align:center; padding:12px; font-weight:700; line-height:1.4;">
+        FDA Pathway Intelligence<br/>for Digital Health & Devices
+      </div>
+
+      <h3 style="margin-bottom: 6px;">
+        <a href="https://github.com/EstherKim97/FDA-Device-Digital-Health-Pathway-Intelligence" style="text-decoration: none; color: #333;">
+          FDA Device / Digital Health Pathway Intelligence
+        </a>
+      </h3>
+
+      <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
+        One of the projects closest to my heart: a regulatory-science decision-support dashboard that maps likely FDA pathways, identifies predicate devices, and surfaces evidence gaps for early-stage digital health and medical device strategy.
+      </p>
+
+      <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
+        <span style="font-size: 11px; background: #eef2ff; color: #4338ca; padding: 4px 8px; border-radius: 999px;">⚖️ REGULATORY SCIENCE</span>
+        <span style="font-size: 11px; background: #dcfce7; color: #166534; padding: 4px 8px; border-radius: 999px;">👤 SOLO</span>
+      </div>
+    </div>
+
+    <div style="display:flex; justify-content:flex-start; gap:8px;">
+      <a href="https://github.com/EstherKim97/FDA-Device-Digital-Health-Pathway-Intelligence"
+         style="background:#007acc;color:white;padding:6px 12px;border-radius:4px;text-decoration:none;font-size:13px;">
+         GitHub
+      </a>
+      <span style="font-size:11px;background:#fef3c7;color:#92400e;padding:4px 8px;border-radius:999px;">🧭 Strategy & Decision Support</span>
+    </div>
+  </div>
+
+</div>
+
 <h2 style="margin-top: 30px;">📚 Published Research</h2>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 10px 0 36px 0;">
