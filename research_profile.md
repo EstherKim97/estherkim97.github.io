@@ -46,98 +46,130 @@ permalink: /research_profile/
 <div class="rp-card accent-blue">
   <div class="rp-title"><span class="rp-title-icon">🗓️</span>Education &amp; Experience Timeline</div>
 
-  <div class="timeline-columns">
+  <div class="timeline-legend">
+    <span class="edu"><span class="dot"></span>Education</span>
+    <span class="exp"><span class="dot"></span>Experience</span>
+  </div>
 
-    <div class="timeline-col">
-      <div class="timeline-col-label edu">🎓 Education</div>
-      <div class="timeline">
+  <div class="timeline-merged">
 
-        <div class="timeline-item is-education is-current">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2024 – Present <span class="timeline-badge">In progress</span></div>
-          <div class="timeline-title">M.S. Health Data Science</div>
-          <div class="timeline-org">University of California, San Francisco · Dept. of Epidemiology &amp; Biostatistics</div>
-          <div class="timeline-desc">Capstone: multi-omics biomarker discovery for kidney-transplant rejection using CyTOF and clinical data, advised by Marina Sirota, PhD.</div>
-        </div>
+    <div class="tl-row side-right is-current">
+      <div class="tl-content">
+        <div class="timeline-date">2025 – Present <span class="timeline-badge">Current</span></div>
+        <div class="timeline-title">Graduate Researcher — UCSF (Sirota Lab &amp; Yang Lab)</div>
+        <div class="timeline-org">Single-cell RNA-seq analysis</div>
+        <div class="timeline-desc">Analyzing scRNA-seq data to study cell–cell communication networks in scleroderma-related lung disease.</div>
+      </div>
+      <div class="tl-dot"></div>
+      <div></div>
+    </div>
 
-        <div class="timeline-item is-education">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">Feb 2021 – Feb 2023</div>
-          <div class="timeline-title">M.S. Pharmaceutical Sciences</div>
-          <div class="timeline-org">Yonsei University · Graduate Program of Industrial Pharmaceutical Science, Seoul</div>
-          <div class="timeline-desc">Thesis: comparability study of an EGFR/cMET bispecific antibody subject to manufacturing change, advised by Jin Hyun Jung, PhD.</div>
-        </div>
-
-        <div class="timeline-item is-education">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">Feb 2016 – Feb 2020</div>
-          <div class="timeline-title">B.S. Life Sciences</div>
-          <div class="timeline-org">Sogang University · Department of Natural Sciences, Seoul</div>
-          <div class="timeline-desc">Advised by H. Sean Lee, PhD.</div>
-        </div>
-
+    <div class="tl-row side-left is-current">
+      <div></div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="timeline-date">2024 – Present <span class="timeline-badge">In progress</span></div>
+        <div class="timeline-title">M.S. Health Data Science</div>
+        <div class="timeline-org">University of California, San Francisco · Dept. of Epidemiology &amp; Biostatistics</div>
+        <div class="timeline-desc">Capstone: multi-omics biomarker discovery for kidney-transplant rejection using CyTOF and clinical data, advised by Marina Sirota, PhD.</div>
       </div>
     </div>
 
-    <div class="timeline-col">
-      <div class="timeline-col-label exp">💼 Experience</div>
-      <div class="timeline">
-
-        <div class="timeline-item is-current">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2025 – Present <span class="timeline-badge">Current</span></div>
-          <div class="timeline-title">Graduate Researcher — UCSF (Sirota Lab &amp; Yang Lab)</div>
-          <div class="timeline-org">Single-cell RNA-seq analysis</div>
-          <div class="timeline-desc">Analyzing scRNA-seq data to study cell–cell communication networks in scleroderma-related lung disease.</div>
-        </div>
-
-        <div class="timeline-item is-current">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">Jun 2025 – Present <span class="timeline-badge">Current</span></div>
-          <div class="timeline-title">Catalyst Summer Intern — UCSF Catalyst Program</div>
-          <div class="timeline-org">Target Product Profile (TPP) development</div>
-          <div class="timeline-desc">Supporting strategic planning for MAC Copilot, a digital health decision-support tool for dementia care, and assessing market/regulatory feasibility with clinicians and researchers.</div>
-        </div>
-
-        <div class="timeline-item is-current">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">Jun 2025 – Present <span class="timeline-badge">Current</span></div>
-          <div class="timeline-title">Graduate Researcher — UCSF (Sirota Lab &amp; Sarwal Lab)</div>
-          <div class="timeline-org">CyTOF + clinical data integration</div>
-          <div class="timeline-desc">Integrating single-cell CyTOF with clinical data — preprocessing, metadata management, statistical analysis, and clinician collaboration.</div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">Jun 2025 – Aug 2025</div>
-          <div class="timeline-title">AI Product Evaluation Intern — UCSF Innovation Ventures Catalyst Program</div>
-          <div class="timeline-org">Multimodal AI feasibility review</div>
-          <div class="timeline-desc">Evaluated AI diagnostic platforms for multimodal data integration feasibility; produced documentation and cross-functional review materials.</div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">Jul 2020 – Aug 2024</div>
-          <div class="timeline-title">Regulatory Affairs Specialist — Chong Kun Dang Pharmaceutical</div>
-          <div class="timeline-org">Global RA team</div>
-          <div class="timeline-desc">Managed biologic submissions and post-approval amendments; led cross-functional data alignment and lifecycle documentation for FDA/MFDS-facing filings.</div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">Jan 2018 – Jul 2019</div>
-          <div class="timeline-title">Research Assistant — Plant Gene Regulation Lab, Sogang University</div>
-          <div class="timeline-desc">Conducted molecular biology experiments to study gene regulation under salt stress, including cloning, transformation, and phenotypic analysis.</div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">Jan 2019</div>
-          <div class="timeline-title">Intern — SNP Genetics, Inc.</div>
-          <div class="timeline-desc">Supported genetic disease analysis using DNA sequencing and SNP genotyping; assisted with laboratory workflows and statistical analysis.</div>
-        </div>
-
+    <div class="tl-row side-right is-current">
+      <div class="tl-content">
+        <div class="timeline-date">Jun 2025 – Present <span class="timeline-badge">Current</span></div>
+        <div class="timeline-title">Catalyst Summer Intern — UCSF Catalyst Program</div>
+        <div class="timeline-org">Target Product Profile (TPP) development</div>
+        <div class="timeline-desc">Supporting strategic planning for MAC Copilot, a digital health decision-support tool for dementia care, and assessing market/regulatory feasibility with clinicians and researchers.</div>
       </div>
+      <div class="tl-dot"></div>
+      <div></div>
+    </div>
+
+    <div class="tl-row side-right is-current">
+      <div class="tl-content">
+        <div class="timeline-date">Jun 2025 – Present <span class="timeline-badge">Current</span></div>
+        <div class="timeline-title">Graduate Researcher — UCSF (Sirota Lab &amp; Sarwal Lab)</div>
+        <div class="timeline-org">CyTOF + clinical data integration</div>
+        <div class="timeline-desc">Integrating single-cell CyTOF with clinical data — preprocessing, metadata management, statistical analysis, and clinician collaboration.</div>
+      </div>
+      <div class="tl-dot"></div>
+      <div></div>
+    </div>
+
+    <div class="tl-row side-right">
+      <div class="tl-content">
+        <div class="timeline-date">Summer 2025</div>
+        <div class="timeline-title">Educational Assistant — DATASCI 202, UCSF</div>
+        <div class="timeline-org">Introduction to the Science of "Big Data"</div>
+        <div class="timeline-desc">Supported instruction, assignment grading, and office hours for a graduate-level health data science course; provided statistical and programming support to ~20 graduate students through weekly office hours and individual consultations.</div>
+      </div>
+      <div class="tl-dot"></div>
+      <div></div>
+    </div>
+
+    <div class="tl-row side-right">
+      <div class="tl-content">
+        <div class="timeline-date">Jun 2025 – Aug 2025</div>
+        <div class="timeline-title">AI Product Evaluation Intern — UCSF Innovation Ventures Catalyst Program</div>
+        <div class="timeline-org">Multimodal AI feasibility review</div>
+        <div class="timeline-desc">Evaluated AI diagnostic platforms for multimodal data integration feasibility; produced documentation and cross-functional review materials.</div>
+      </div>
+      <div class="tl-dot"></div>
+      <div></div>
+    </div>
+
+    <div class="tl-row side-left">
+      <div></div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="timeline-date">Feb 2021 – Feb 2023</div>
+        <div class="timeline-title">M.S. Pharmaceutical Sciences</div>
+        <div class="timeline-org">Yonsei University · Graduate Program of Industrial Pharmaceutical Science, Seoul</div>
+        <div class="timeline-desc">Thesis: comparability study of an EGFR/cMET bispecific antibody subject to manufacturing change, advised by Jin Hyun Jung, PhD.</div>
+      </div>
+    </div>
+
+    <div class="tl-row side-right">
+      <div class="tl-content">
+        <div class="timeline-date">Jul 2020 – Aug 2024</div>
+        <div class="timeline-title">Regulatory Affairs Specialist — Chong Kun Dang Pharmaceutical</div>
+        <div class="timeline-org">Global RA team</div>
+        <div class="timeline-desc">Managed biologic submissions and post-approval amendments; led cross-functional data alignment and lifecycle documentation for FDA/MFDS-facing filings.</div>
+      </div>
+      <div class="tl-dot"></div>
+      <div></div>
+    </div>
+
+    <div class="tl-row side-left">
+      <div></div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="timeline-date">Feb 2016 – Feb 2020</div>
+        <div class="timeline-title">B.S. Life Sciences</div>
+        <div class="timeline-org">Sogang University · Department of Natural Sciences, Seoul</div>
+        <div class="timeline-desc">Advised by H. Sean Lee, PhD.</div>
+      </div>
+    </div>
+
+    <div class="tl-row side-right">
+      <div class="tl-content">
+        <div class="timeline-date">Jan 2018 – Jul 2019</div>
+        <div class="timeline-title">Research Assistant — Plant Gene Regulation Lab, Sogang University</div>
+        <div class="timeline-desc">Conducted molecular biology experiments to study gene regulation under salt stress, including cloning, transformation, and phenotypic analysis.</div>
+      </div>
+      <div class="tl-dot"></div>
+      <div></div>
+    </div>
+
+    <div class="tl-row side-right">
+      <div class="tl-content">
+        <div class="timeline-date">Jan 2019</div>
+        <div class="timeline-title">Intern — SNP Genetics, Inc.</div>
+        <div class="timeline-desc">Supported genetic disease analysis using DNA sequencing and SNP genotyping; assisted with laboratory workflows and statistical analysis.</div>
+      </div>
+      <div class="tl-dot"></div>
+      <div></div>
     </div>
 
   </div>
