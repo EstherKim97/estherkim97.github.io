@@ -166,6 +166,39 @@
   text-align: center;
 }
 
+/* Stacked variant — date on its own line, then title, then description
+   below it, instead of a side-by-side date/content column. Used for
+   longer entries (publications, presentations) where a fixed-width date
+   column made titles wrap unevenly next to the text. */
+.rp-list.stacked li {
+  display: block;
+  padding: 16px 0;
+}
+
+.rp-list.stacked .rp-date {
+  display: inline-block;
+  flex: none;
+  margin-bottom: 10px;
+}
+
+.pub-title {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: rgba(0,0,0,.85);
+  margin-bottom: 5px;
+}
+
+.pub-desc {
+  color: rgba(0,0,0,.6);
+  font-size: .92rem;
+  line-height: 1.55;
+  max-width: 720px;
+}
+
 
 /* ===== Personal Profile page additions ===== */
 

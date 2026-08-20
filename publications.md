@@ -14,14 +14,16 @@ hide_title: true
 <div class="rp-card accent-blue">
   <div class="rp-title"><span class="rp-title-icon">📄</span>Manuscripts</div>
 
-  <ul class="rp-list">
+  <ul class="rp-list stacked">
     <li>
       <span class="rp-date">Submitted</span>
-      <strong>Multi-omics Kidney Transplant Cohort</strong> — Immune-metabolic biomarkers of pre-transplant allograft rejection risk, integrating 42-marker CyTOF (~32.3M cells), metabolomics, and clinical data.
+      <div class="pub-title">Multi-omics Kidney Transplant Cohort</div>
+      <div class="pub-desc">Immune-metabolic biomarkers of pre-transplant allograft rejection risk, integrating 42-marker CyTOF (~32.3M cells), metabolomics, and clinical data.</div>
     </li>
     <li>
       <span class="rp-date">In prep</span>
-      <strong>Scleroderma scRNA-seq — CellChat Analysis</strong> — Cell&ndash;cell signaling networks in scleroderma-associated interstitial lung disease.
+      <div class="pub-title">Scleroderma scRNA-seq — CellChat Analysis</div>
+      <div class="pub-desc">Cell&ndash;cell signaling networks in scleroderma-associated interstitial lung disease.</div>
     </li>
   </ul>
 </div>
@@ -29,18 +31,21 @@ hide_title: true
 <div class="rp-card accent-teal">
   <div class="rp-title"><span class="rp-title-icon">🎤</span>Presentations</div>
 
-  <ul class="rp-list">
+  <ul class="rp-list stacked">
     <li>
       <span class="rp-date">2026</span>
-      <strong>Research AI Day, UCSF</strong> — "Immune Profiling Identifies γδ T Cell Signatures as Biomarkers of Acute Rejection in Kidney Transplantation" <span class="timeline-badge">Poster Presentation</span>
+      <div class="pub-title">Research AI Day, UCSF <span class="timeline-badge">Poster Presentation</span></div>
+      <div class="pub-desc">&ldquo;Immune Profiling Identifies γδ T Cell Signatures as Biomarkers of Acute Rejection in Kidney Transplantation&rdquo;</div>
     </li>
     <li>
       <span class="rp-date">2019</span>
-      <strong>KSMCB International Conference</strong> — "Effort to Improve the Functions of AtMBF1c for Salt Stress Tolerance" <span class="timeline-badge">Poster Presentation</span>
+      <div class="pub-title">KSMCB International Conference <span class="timeline-badge">Poster Presentation</span></div>
+      <div class="pub-desc">&ldquo;Effort to Improve the Functions of AtMBF1c for Salt Stress Tolerance&rdquo;</div>
     </li>
     <li>
       <span class="rp-date">2018</span>
-      <strong>KSMCB International Conference</strong> — "Understanding of Salt Stress Tolerance in Arabidopsis by Overexpression of P. alpinum MBF1 Gene" <span class="timeline-badge">Poster Presentation</span>
+      <div class="pub-title">KSMCB International Conference <span class="timeline-badge">Poster Presentation</span></div>
+      <div class="pub-desc">&ldquo;Understanding of Salt Stress Tolerance in Arabidopsis by Overexpression of P. alpinum MBF1 Gene&rdquo;</div>
     </li>
   </ul>
 </div>
