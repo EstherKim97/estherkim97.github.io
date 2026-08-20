@@ -124,7 +124,7 @@ font: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sa
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading: "Plus Jakarta Sans", Inter, Helvetica, Arial, sans-serif
+font_heading: Plus Jakarta Sans, Inter, Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
 font_code: Fira Code, Menlo, Monaco, Consolas, monospace;
