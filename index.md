@@ -143,6 +143,12 @@ hide_description: true
       <span class="chip">Model Evaluation</span>
       <span class="chip">Reproducible Pipelines</span>
     </div>
+
+    <div style="display:flex; gap:12px; margin-top:32px; flex-wrap:wrap;">
+      <a class="btn-link" href="{{ '/projects/' | relative_url }}">View Projects</a>
+      <a class="btn-link" style="background:#fff; color:#2F3CFF !important; border:2px solid #2F3CFF;" href="{{ '/research_profile/' | relative_url }}">Research &amp; Experience</a>
+      <a class="btn-link" style="background:#fff; color:#2F3CFF !important; border:2px solid #2F3CFF;" href="{{ '/resume/' | relative_url }}">Resume</a>
+    </div>
   </div>
 
   <div class="hero-visual">
@@ -153,6 +159,34 @@ hide_description: true
       loop
       autoplay>
     </dotlottie-player>
+  </div>
+</div>
+
+<div class="section-kicker" style="margin-top:10px;">Toolkit</div>
+<div class="skill-grid" style="grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); max-width: 620px;">
+  <div class="skill-item">
+    <img class="skill-icon" src="https://cdn.simpleicons.org/python/3776AB" alt="Python" loading="lazy">
+    <div class="skill-label">Python</div>
+  </div>
+  <div class="skill-item">
+    <img class="skill-icon" src="https://cdn.simpleicons.org/r/276DC3" alt="R" loading="lazy">
+    <div class="skill-label">R</div>
+  </div>
+  <div class="skill-item">
+    <div class="skill-icon-mono">SQL</div>
+    <div class="skill-label">SQL</div>
+  </div>
+  <div class="skill-item">
+    <img class="skill-icon" src="https://cdn.simpleicons.org/pandas/150458" alt="pandas" loading="lazy">
+    <div class="skill-label">pandas</div>
+  </div>
+  <div class="skill-item">
+    <img class="skill-icon" src="https://cdn.simpleicons.org/jupyter/F37626" alt="Jupyter" loading="lazy">
+    <div class="skill-label">Jupyter</div>
+  </div>
+  <div class="skill-item">
+    <img class="skill-icon" src="https://cdn.simpleicons.org/git/F05032" alt="Git" loading="lazy">
+    <div class="skill-label">Git</div>
   </div>
 </div>
 

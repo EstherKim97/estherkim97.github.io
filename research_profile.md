@@ -44,105 +44,89 @@ permalink: /research_profile/
 </div>
 
 <div class="rp-card">
-  <div class="rp-title">Education</div>
+  <div class="rp-title">Education &amp; Experience Timeline</div>
 
-  <div class="rp-row">
-    <div class="rp-left">
-      <strong>University of California, San Francisco</strong><br/>
-      M.S. Health Data Science <span class="rp-muted">(Expected May 2026)</span>
-      <div class="rp-muted">Capstone: Multi-omics biomarker discovery for kidney-transplant rejection using CyTOF and clinical data.</div>
+  <div class="timeline">
+
+    <div class="timeline-item is-education is-current">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2024 – Present <span class="timeline-badge">In progress</span></div>
+      <div class="timeline-title">M.S. Health Data Science — University of California, San Francisco</div>
+      <div class="timeline-org">Dept. of Epidemiology &amp; Biostatistics · San Francisco, CA</div>
+      <div class="timeline-desc">Capstone: multi-omics biomarker discovery for kidney-transplant rejection using CyTOF and clinical data, advised by Marina Sirota, PhD.</div>
     </div>
-    <div class="rp-right rp-muted">San Francisco, CA</div>
-  </div>
 
-  <div class="rp-row">
-    <div class="rp-left">
-      <strong>Yonsei University</strong><br/>
-      M.S. Pharmaceutical Sciences <span class="rp-muted">(Feb 2021 – Feb 2023)</span>
-      <div class="rp-muted">Thesis: Comparability study of an EGFR/CMET bispecific antibody subject to manufacturing change.</div>
+    <div class="timeline-item is-current">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2025 – Present <span class="timeline-badge">Current</span></div>
+      <div class="timeline-title">Graduate Researcher — UCSF (Sirota Lab &amp; Yang Lab)</div>
+      <div class="timeline-org">Single-cell RNA-seq analysis</div>
+      <div class="timeline-desc">Analyzing scRNA-seq data to study cell–cell communication networks in scleroderma-related lung disease.</div>
     </div>
-    <div class="rp-right rp-muted">Seoul, South Korea</div>
-  </div>
 
-  <div class="rp-row">
-    <div class="rp-left">
-      <strong>Sogang University</strong><br/>
-      B.S. Life Science <span class="rp-muted">(Feb 2016 – Feb 2020)</span>
+    <div class="timeline-item is-current">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">Jun 2025 – Present <span class="timeline-badge">Current</span></div>
+      <div class="timeline-title">Catalyst Summer Intern — UCSF Catalyst Program</div>
+      <div class="timeline-org">Target Product Profile (TPP) development</div>
+      <div class="timeline-desc">Supporting strategic planning for MAC Copilot, a digital health decision-support tool for dementia care, and assessing market/regulatory feasibility with clinicians and researchers.</div>
     </div>
-    <div class="rp-right rp-muted">Seoul, South Korea</div>
-  </div>
-</div>
 
-
-
-<div class="rp-card">
-  <div class="rp-title">Research & Professional Experience</div>
-
-  <div class="rp-row">
-    <div class="rp-left">
-      <strong>Graduate Researcher</strong> — UCSF (Dr. Sirota Lab & Yang Lab)<br/>
-      <span class="rp-muted">
-        Analyzing single-cell RNA-seq data to study cell–cell communication in scleroderma-related lung disease
-      </span>
+    <div class="timeline-item is-current">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">Jun 2025 – Present <span class="timeline-badge">Current</span></div>
+      <div class="timeline-title">Graduate Researcher — UCSF (Sirota Lab &amp; Sarwal Lab)</div>
+      <div class="timeline-org">CyTOF + clinical data integration</div>
+      <div class="timeline-desc">Integrating single-cell CyTOF with clinical data — preprocessing, metadata management, statistical analysis, and clinician collaboration.</div>
     </div>
-    <div class="rp-right rp-muted">2025 – Present</div>
-  </div>
 
-  <div class="rp-row">
-    <div class="rp-left">
-      <strong>AI Product Evaluation Intern</strong> — UCSF Innovation Ventures Catalyst Program<br/>
-      <span class="rp-muted">
-        Will evaluate microbiome-focused AI platforms, with a focus on data modalities, analytical pipelines, and clinical feasibility; supporting documentation and cross-functional reviews.
-      </span>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">Jun 2025 – Aug 2025</div>
+      <div class="timeline-title">AI Product Evaluation Intern — UCSF Innovation Ventures Catalyst Program</div>
+      <div class="timeline-org">Multimodal AI feasibility review</div>
+      <div class="timeline-desc">Evaluated AI diagnostic platforms for multimodal data integration feasibility; produced documentation and cross-functional review materials.</div>
     </div>
-    <div class="rp-right rp-muted">2025 - Present</div>
-  </div>
 
-  <div class="rp-row">
-    <div class="rp-left">
-      <strong>Graduate Researcher</strong> — UCSF (Dr. Sirota & Dr. Sarwal’s Lab)<br/>
-      <span class="rp-muted">Integrating single-cell CyTOF with clinical data; preprocessing, metadata management, statistical analysis, clinician collaboration.</span>
+    <div class="timeline-item is-education">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">Feb 2021 – Feb 2023</div>
+      <div class="timeline-title">M.S. Pharmaceutical Sciences — Yonsei University</div>
+      <div class="timeline-org">Graduate Program of Industrial Pharmaceutical Science · Seoul, South Korea</div>
+      <div class="timeline-desc">Thesis: comparability study of an EGFR/cMET bispecific antibody subject to manufacturing change, advised by Jin Hyun Jung, PhD.</div>
     </div>
-    <div class="rp-right rp-muted">Jun 2025 – Present</div>
-  </div>
 
-  <div class="rp-row">
-    <div class="rp-left">
-      <strong>AI Product Evaluation Intern</strong> — UCSF Innovation Ventures Catalyst Program<br/>
-      <span class="rp-muted">Evaluated AI diagnostic platforms; multimodal data integration feasibility; documentation and cross-functional review.</span>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">Jul 2020 – Aug 2024</div>
+      <div class="timeline-title">Regulatory Affairs Specialist — Chong Kun Dang Pharmaceutical</div>
+      <div class="timeline-org">Global RA team</div>
+      <div class="timeline-desc">Managed biologic submissions and post-approval amendments; led cross-functional data alignment and lifecycle documentation for FDA/MFDS-facing filings.</div>
     </div>
-    <div class="rp-right rp-muted">Jun 2025 – Aug 2025</div>
-  </div>
 
-  <div class="rp-row">
-    <div class="rp-left">
-      <strong>Regulatory Affairs Specialist</strong> — Chong Kun Dang Pharmaceutical<br/>
-      <span class="rp-muted">Managed biologic submissions and post-approval amendments; cross-functional data alignment; lifecycle documentation.</span>
+    <div class="timeline-item is-education">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">Feb 2016 – Feb 2020</div>
+      <div class="timeline-title">B.S. Life Sciences — Sogang University</div>
+      <div class="timeline-org">Department of Natural Sciences · Seoul, South Korea</div>
+      <div class="timeline-desc">Advised by H. Sean Lee, PhD.</div>
     </div>
-    <div class="rp-right rp-muted">Jul 2020 – Aug 2024</div>
-  </div>
 
-  <div class="rp-row">
-    <div class="rp-left">
-      <strong>Intern</strong> — SNP Genetics, Inc.<br/>
-      <span class="rp-muted">
-        Supported genetic disease analysis using DNA sequencing and SNP genotyping; assisted with laboratory workflows and statistical analysis.
-      </span>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">Jan 2018 – Jul 2019</div>
+      <div class="timeline-title">Research Assistant — Plant Gene Regulation Lab, Sogang University</div>
+      <div class="timeline-desc">Conducted molecular biology experiments to study gene regulation under salt stress, including cloning, transformation, and phenotypic analysis.</div>
     </div>
-    <div class="rp-right rp-muted">Jan 2019</div>
-  </div>
 
-  <div class="rp-row">
-    <div class="rp-left">
-      <strong>Research Assistant</strong> — Plant Gene Regulation Lab, Sogang University<br/>
-      <span class="rp-muted">
-        Conducted molecular biology experiments to study gene regulation under salt stress, including cloning, transformation, and phenotypic analysis.
-      </span>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">Jan 2019</div>
+      <div class="timeline-title">Intern — SNP Genetics, Inc.</div>
+      <div class="timeline-desc">Supported genetic disease analysis using DNA sequencing and SNP genotyping; assisted with laboratory workflows and statistical analysis.</div>
     </div>
-    <div class="rp-right rp-muted">Jan 2018 – Jul 2019</div>
+
   </div>
-
-
 </div>
 
 <div class="rp-card">
@@ -174,24 +158,65 @@ permalink: /research_profile/
 </div>
 
 <div class="rp-card">
-  <div class="rp-title">Technical Skills (Coding)</div>
-  <div class="rp-chips">
-    <!-- Core languages -->
-    <span class="rp-chip">Python</span>
-    <span class="rp-chip">R</span>
-    <span class="rp-chip">SQL</span>
+  <div class="rp-title">Technical Skills</div>
 
-    <!-- Data analysis & workflows -->
+  <div class="skill-grid">
+    <div class="skill-item">
+      <img class="skill-icon" src="https://cdn.simpleicons.org/python/3776AB" alt="Python" loading="lazy">
+      <div class="skill-label">Python</div>
+    </div>
+    <div class="skill-item">
+      <img class="skill-icon" src="https://cdn.simpleicons.org/r/276DC3" alt="R" loading="lazy">
+      <div class="skill-label">R</div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon-mono">SQL</div>
+      <div class="skill-label">SQL</div>
+    </div>
+    <div class="skill-item">
+      <img class="skill-icon" src="https://cdn.simpleicons.org/pandas/150458" alt="pandas" loading="lazy">
+      <div class="skill-label">pandas</div>
+    </div>
+    <div class="skill-item">
+      <img class="skill-icon" src="https://cdn.simpleicons.org/numpy/013243" alt="NumPy" loading="lazy">
+      <div class="skill-label">NumPy</div>
+    </div>
+    <div class="skill-item">
+      <img class="skill-icon" src="https://cdn.simpleicons.org/scikitlearn/F7931E" alt="scikit-learn" loading="lazy">
+      <div class="skill-label">scikit-learn</div>
+    </div>
+    <div class="skill-item">
+      <img class="skill-icon" src="https://cdn.simpleicons.org/jupyter/F37626" alt="Jupyter" loading="lazy">
+      <div class="skill-label">Jupyter</div>
+    </div>
+    <div class="skill-item">
+      <img class="skill-icon" src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="Streamlit" loading="lazy">
+      <div class="skill-label">Streamlit</div>
+    </div>
+    <div class="skill-item">
+      <img class="skill-icon" src="https://cdn.simpleicons.org/git/F05032" alt="Git" loading="lazy">
+      <div class="skill-label">Git</div>
+    </div>
+    <div class="skill-item">
+      <img class="skill-icon" src="https://cdn.simpleicons.org/github/181717" alt="GitHub" loading="lazy">
+      <div class="skill-label">GitHub</div>
+    </div>
+    <div class="skill-item">
+      <img class="skill-icon" src="https://cdn.simpleicons.org/microsoftexcel/217346" alt="Excel" loading="lazy">
+      <div class="skill-label">Excel</div>
+    </div>
+    <div class="skill-item">
+      <img class="skill-icon" src="https://cdn.simpleicons.org/visualstudiocode/007ACC" alt="VS Code" loading="lazy">
+      <div class="skill-label">VS Code</div>
+    </div>
+  </div>
+
+  <div class="rp-chips" style="margin-top:18px;">
     <span class="rp-chip">Data Wrangling</span>
     <span class="rp-chip">Statistical Analysis</span>
     <span class="rp-chip">Exploratory Data Analysis</span>
-
-    <!-- Scientific / healthcare tooling -->
     <span class="rp-chip">Single-cell Analysis Pipelines</span>
     <span class="rp-chip">Clinical Data Processing</span>
-
-    <!-- Reproducibility & engineering hygiene -->
     <span class="rp-chip">Reproducible Workflows</span>
-    <span class="rp-chip">Version Control (Git)</span>
   </div>
 </div>

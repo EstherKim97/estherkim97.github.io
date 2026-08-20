@@ -192,3 +192,433 @@
   font-size: 0.9rem;
   color: rgba(0,0,0,.45);
 }
+
+/* subtle lift on hover for content cards site-wide */
+.rp-card{ transition: box-shadow .25s ease, transform .25s ease; }
+.rp-card:hover{ box-shadow: 0 20px 48px rgba(15,23,42,.09); transform: translateY(-2px); }
+
+/* ===================================================================
+   Section header — consistent "kicker" label used above section titles
+   =================================================================== */
+.section-kicker{
+  display:inline-block;
+  font-size:.72rem;
+  font-weight:800;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:#2F3CFF;
+  margin-bottom:6px;
+}
+
+.section-heading{
+  font-family: "Plus Jakarta Sans", Inter, sans-serif;
+  font-weight:800;
+  font-size: clamp(1.3rem, 2.4vw, 1.7rem);
+  margin: 0 0 18px 0;
+  letter-spacing: -0.01em;
+}
+
+/* ===================================================================
+   Visual timeline (experience / education)
+   =================================================================== */
+.timeline{
+  position: relative;
+  margin: 6px 0 4px 0;
+  padding-left: 34px;
+}
+
+.timeline::before{
+  content:"";
+  position:absolute;
+  left: 9px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: linear-gradient(180deg, #2F3CFF 0%, rgba(47,60,255,.15) 85%, transparent 100%);
+}
+
+.timeline-item{
+  position: relative;
+  padding: 0 0 30px 22px;
+}
+.timeline-item:last-child{ padding-bottom: 2px; }
+
+.timeline-dot{
+  position:absolute;
+  left: -34px;
+  top: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background:#fff;
+  border: 3px solid #2F3CFF;
+  box-shadow: 0 0 0 4px rgba(47,60,255,.12);
+  z-index: 1;
+}
+
+.timeline-item.is-current .timeline-dot{
+  background:#2F3CFF;
+  box-shadow: 0 0 0 5px rgba(47,60,255,.18);
+}
+
+.timeline-item.is-education .timeline-dot{
+  border-color:#0f766e;
+  box-shadow: 0 0 0 4px rgba(15,118,110,.12);
+}
+.timeline-item.is-education.is-current .timeline-dot{
+  background:#0f766e;
+  box-shadow: 0 0 0 5px rgba(15,118,110,.18);
+}
+
+.timeline-date{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-size:.76rem;
+  font-weight:800;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:#2F3CFF;
+  margin-bottom:4px;
+}
+
+.timeline-item.is-education .timeline-date{ color:#0f766e; }
+
+.timeline-badge{
+  font-size:.68rem;
+  font-weight:700;
+  padding:2px 8px;
+  border-radius:999px;
+  background:#eef2ff;
+  color:#2F3CFF;
+  text-transform:none;
+  letter-spacing:normal;
+}
+
+.timeline-item.is-education .timeline-badge{ background:#ecfeff; color:#0f766e; }
+
+.timeline-title{
+  font-family: "Plus Jakarta Sans", Inter, sans-serif;
+  font-weight:700;
+  font-size:1.05rem;
+  margin: 0 0 2px 0;
+  color: rgba(0,0,0,.88);
+}
+
+.timeline-org{
+  font-size:.92rem;
+  color: rgba(0,0,0,.55);
+  margin-bottom:6px;
+}
+
+.timeline-desc{
+  font-size:.92rem;
+  line-height:1.55;
+  color: rgba(0,0,0,.62);
+  max-width: 640px;
+}
+
+@media (max-width: 720px){
+  .timeline{ padding-left: 26px; }
+  .timeline-dot{ left: -26px; }
+}
+
+/* ===================================================================
+   Skill logo grid
+   =================================================================== */
+.skill-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(108px, 1fr));
+  gap: 14px;
+  margin-top: 4px;
+}
+
+.skill-item{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  text-align:center;
+  padding: 16px 10px;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 14px;
+  background:#fff;
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+
+.skill-item:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(15,23,42,.1);
+  border-color: rgba(47,60,255,.35);
+}
+
+.skill-icon{
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.skill-icon-mono{
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:.72rem;
+  font-weight:800;
+  color:#fff;
+  background:#2F3CFF;
+}
+
+.skill-label{
+  font-size:.78rem;
+  font-weight:600;
+  color: rgba(0,0,0,.68);
+}
+
+/* ===================================================================
+   Rotating project visuals (pure-CSS crossfade, no JS)
+   =================================================================== */
+.rotator{
+  position: relative;
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  background: #eef2ff;
+}
+
+.rotator-slide{
+  position:absolute;
+  inset: 0;
+  opacity: 0;
+  animation: rotatorFade 12s infinite;
+}
+
+.rotator-slide:nth-child(1){ animation-delay: 0s; }
+.rotator-slide:nth-child(2){ animation-delay: -4s; }
+.rotator-slide:nth-child(3){ animation-delay: -8s; }
+
+@keyframes rotatorFade{
+  0%   { opacity: 0; }
+  4%   { opacity: 1; }
+  29%  { opacity: 1; }
+  34%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.rotator-slide img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  display:block;
+}
+
+.rotator-stat{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding: 14px;
+  background: linear-gradient(135deg, #2F3CFF, #6366f1);
+  color:#fff;
+}
+
+.rotator-stat .num{
+  font-family: "Plus Jakarta Sans", Inter, sans-serif;
+  font-weight:800;
+  font-size: 1.9rem;
+  line-height:1.1;
+}
+
+.rotator-stat .label{
+  font-size:.8rem;
+  opacity:.9;
+  margin-top:4px;
+  max-width: 240px;
+}
+
+.rotator-stack{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  padding: 14px;
+  background: #0f172a;
+}
+
+.rotator-stack .kicker{
+  font-size:.66rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color: rgba(255,255,255,.55);
+  font-weight:700;
+}
+
+.rotator-stack .chips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+  justify-content:center;
+}
+
+.rotator-stack .chips span{
+  font-size:.72rem;
+  font-weight:600;
+  color:#e0e7ff;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.16);
+  padding: 4px 9px;
+  border-radius: 999px;
+}
+
+.rotator-dots{
+  position:absolute;
+  right:10px;
+  bottom:8px;
+  display:flex;
+  gap:5px;
+  z-index:2;
+}
+
+.rotator-dots span{
+  width:6px;
+  height:6px;
+  border-radius:999px;
+  background: rgba(255,255,255,.55);
+  animation: rotatorDot 12s infinite;
+}
+.rotator-dots span:nth-child(1){ animation-delay: 0s; }
+.rotator-dots span:nth-child(2){ animation-delay: -4s; }
+.rotator-dots span:nth-child(3){ animation-delay: -8s; }
+
+@keyframes rotatorDot{
+  0%   { background: rgba(255,255,255,.4); transform: scale(1); }
+  4%   { background: #fff; transform: scale(1.3); }
+  29%  { background: #fff; transform: scale(1.3); }
+  34%  { background: rgba(255,255,255,.4); transform: scale(1); }
+  100% { background: rgba(255,255,255,.4); transform: scale(1); }
+}
+
+/* ===================================================================
+   Project cards
+   =================================================================== */
+.project-section{ margin: 8px 0 40px 0; }
+
+.project-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 20px;
+}
+
+.project-card{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  background:#fff;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 10px 24px rgba(15,23,42,.05);
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+
+.project-card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 22px 44px rgba(15,23,42,.12);
+  border-color: rgba(47,60,255,.3);
+}
+
+.project-card.featured{
+  border: 1px solid rgba(47,60,255,.25);
+}
+
+.project-cover{
+  width:100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display:block;
+}
+
+.project-eyebrow{
+  font-size:.72rem;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#2F3CFF;
+  margin-bottom:6px;
+}
+
+.project-card h3{
+  font-family: "Plus Jakarta Sans", Inter, sans-serif;
+  font-size:1.06rem;
+  margin: 0 0 6px 0;
+  line-height:1.3;
+}
+
+.project-card h3 a{
+  color: rgba(0,0,0,.88);
+  text-decoration:none;
+}
+.project-card h3 a:hover{ color:#2F3CFF; }
+
+.project-card p{
+  color: rgba(0,0,0,.6);
+  font-size:.9rem;
+  line-height:1.45;
+  margin: 0 0 10px 0;
+}
+
+.project-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+  margin-bottom: 12px;
+}
+
+.tag{
+  font-size:.7rem;
+  font-weight:700;
+  padding: 4px 9px;
+  border-radius:999px;
+  background:#eef2ff;
+  color:#4338ca;
+}
+.tag.tag-solo{ background:#dcfce7; color:#166534; }
+.tag.tag-team{ background:#fef3c7; color:#92400e; }
+.tag.tag-fork{ background:#fef3c7; color:#92400e; }
+.tag.tag-nlp{ background:#f5f3ff; color:#6d28d9; }
+.tag.tag-e2e{ background:#ecfeff; color:#0f766e; }
+.tag.tag-reg{ background:#eef2ff; color:#4338ca; }
+
+.project-actions{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.btn-link{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  background:#0f172a;
+  color:#fff !important;
+  padding: 7px 13px;
+  border-radius: 8px;
+  text-decoration:none !important;
+  font-size:.82rem;
+  font-weight:600;
+  transition: background .2s ease;
+}
+.btn-link:hover{ background:#2F3CFF; }

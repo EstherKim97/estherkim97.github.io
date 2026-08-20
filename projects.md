@@ -1,341 +1,336 @@
-<h2 style="margin-top: 30px;">⚖️ Regulatory Sciences & Intelligence</h2>
+---
+layout: page
+title: Projects
+permalink: /projects/
+hide_title: true
+---
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 10px 0 36px 0;">
-
-  <!-- FDA Device / Digital Health Pathway Intelligence -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
-    <div>
-      <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">⚖️ Regulatory Sciences</div>
-
-      <div style="height:160px; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, #eff6ff, #dbeafe); border-radius:4px; color:#1d4ed8; margin-bottom:12px; text-align:center; padding:12px; font-weight:700; line-height:1.4;">
-        FDA Pathway Intelligence<br/>for Digital Health & Devices
-      </div>
-
-      <h3 style="margin-bottom: 6px;">
-        <a href="https://github.com/EstherKim97/FDA-Device-Digital-Health-Pathway-Intelligence" style="text-decoration: none; color: #333;">
-          FDA Device / Digital Health Pathway Intelligence
-        </a>
-      </h3>
-
-      <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
-        One of the projects closest to my heart: a regulatory-science decision-support dashboard that maps likely FDA pathways, identifies predicate devices, and surfaces evidence gaps for early-stage digital health and medical device strategy.
-      </p>
-
-      <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
-        <span style="font-size: 11px; background: #eef2ff; color: #4338ca; padding: 4px 8px; border-radius: 999px;">⚖️ REGULATORY SCIENCE</span>
-        <span style="font-size: 11px; background: #dcfce7; color: #166534; padding: 4px 8px; border-radius: 999px;">👤 SOLO</span>
-      </div>
-    </div>
-
-    <div style="display:flex; justify-content:flex-start; gap:8px;">
-      <a href="https://github.com/EstherKim97/FDA-Device-Digital-Health-Pathway-Intelligence"
-         style="background:#007acc;color:white;padding:6px 12px;border-radius:4px;text-decoration:none;font-size:13px;">
-         GitHub
-      </a>
-      <span style="font-size:11px;background:#fef3c7;color:#92400e;padding:4px 8px;border-radius:999px;">🧭 Strategy & Decision Support</span>
-    </div>
-  </div>
-
+<div class="rp-hero">
+  <p class="rp-hero-sub">
+    A selection of research, engineering, and regulatory-science work spanning clinical AI, pharmacovigilance, and biomedical data systems.
+  </p>
 </div>
 
-<h2 style="margin-top: 30px;">📚 Published Research</h2>
+<div class="project-section">
+  <div class="section-kicker">Featured</div>
+  <h2 class="section-heading">Flagship Projects</h2>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 10px 0 36px 0;">
+  <div class="project-grid">
 
-  <!-- Published Research 1 -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
-    <div>
-      <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">📖 In preparation</div>
+    <!-- DigitalTwin — FEATURED / ROTATOR -->
+    <div class="project-card featured">
+      <div>
+        <div class="project-eyebrow">🚀 End-to-End</div>
 
-      <div style="height:160px; display:flex; align-items:center; justify-content:center; background:#f3f4f6; border-radius:4px; color:#666; margin-bottom:12px;">Image omitted — in preparation</div>
+        <div class="rotator">
+          <div class="rotator-slide">
+            <img src="{{ '/assets/img/projects/DigitalTwin.png' | relative_url }}" alt="DigitalTwin">
+          </div>
+          <div class="rotator-slide">
+            <div class="rotator-stat">
+              <div class="num">Cough Acoustics</div>
+              <div class="label">ML-based respiratory screening from audio signals</div>
+            </div>
+          </div>
+          <div class="rotator-slide">
+            <div class="rotator-stack">
+              <div class="kicker">Built with</div>
+              <div class="chips">
+                <span>Python</span>
+                <span>Signal Processing</span>
+                <span>ML Pipelines</span>
+              </div>
+            </div>
+          </div>
+          <div class="rotator-dots"><span></span><span></span><span></span></div>
+        </div>
 
-      <h3 style="margin-bottom: 6px;">
-        Multi-omics Kidney Transplant Cohort
-      </h3>
+        <h3>
+          <a href="{{ '/01-digitaltwin/' | relative_url }}">DigitalTwin: Cough-Based Respiratory Disease Detection</a>
+        </h3>
+        <p>Machine learning platform for respiratory screening using cough acoustics.</p>
 
-      <div style="color: #666; font-size: 14px; margin-bottom: 10px;">
-        <ul style="margin:0 0 8px 18px; padding:0;">
-          <li>Led statistical design and end-to-end analysis of a multimodal kidney transplant longitudinal cohort integrating 42-marker CyTOF (~32.3M cells), metabolomics, and clinical data.</li>
-          <li>Identified candidate immune-metabolic biomarkers for pre-transplant allograft rejection risk stratification, supporting future validation and clinical decision support.</li>
-          <li>Built reproducible R pipelines integrating multi-omics and clinical data into publication-ready analyses, collaborating with transplant clinicians.</li>
-        </ul>
+        <div class="project-tags">
+          <span class="tag tag-e2e">END-TO-END</span>
+          <span class="tag tag-team">TEAM</span>
+        </div>
       </div>
-    </div>
 
-    <div style="display:flex; justify-content:flex-start; gap:8px;">
-      <a href="/08-selected-publications/" style="background:#007acc;color:white;padding:6px 12px;border-radius:4px;text-decoration:none;font-size:13px;">Details</a>
-      <span style="font-size:11px;background:#eef2ff;color:#4338ca;padding:4px 8px;border-radius:999px;">📖 In preparation</span>
-    </div>
-  </div>
-
-  <!-- Published Research 2 -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
-    <div>
-      <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">📖 In preparation</div>
-
-      <div style="height:160px; display:flex; align-items:center; justify-content:center; background:#f3f4f6; border-radius:4px; color:#666; margin-bottom:12px;">Image omitted — in preparation</div>
-
-      <h3 style="margin-bottom: 6px;">
-        Scleroderma scRNA-seq — CellChat analysis
-      </h3>
-
-      <div style="color: #666; font-size: 14px; margin-bottom: 10px;">
-        <ul style="margin:0 0 8px 18px; padding:0;">
-          <li>Analyzed single-cell RNA-seq data from scleroderma-associated interstitial lung disease.</li>
-          <li>Used CellChat to identify disease-specific cell–cell signaling networks.</li>
-        </ul>
+      <div class="project-actions">
+        <a class="btn-link" href="https://github.com/haile-teshome/DigitalTwin">GitHub</a>
       </div>
     </div>
 
-    <div style="display:flex; justify-content:flex-start; gap:8px;">
-      <a href="/09-research-briefs-methods/" style="background:#007acc;color:white;padding:6px 12px;border-radius:4px;text-decoration:none;font-size:13px;">Details</a>
-      <span style="font-size:11px;background:#eef2ff;color:#4338ca;padding:4px 8px;border-radius:999px;">📖 In preparation</span>
-    </div>
-  </div>
+    <!-- GLP1-Sentinel — FEATURED / ROTATOR -->
+    <div class="project-card featured">
+      <div>
+        <div class="project-eyebrow">🚀 End-to-End</div>
 
+        <div class="rotator">
+          <div class="rotator-slide">
+            <img src="{{ '/assets/img/projects/GLP1.png' | relative_url }}" alt="GLP1-Sentinel">
+          </div>
+          <div class="rotator-slide">
+            <div class="rotator-stat">
+              <div class="num">20M+</div>
+              <div class="label">FAERS adverse-event records analyzed for signal detection</div>
+            </div>
+          </div>
+          <div class="rotator-slide">
+            <div class="rotator-stack">
+              <div class="kicker">Signal methods</div>
+              <div class="chips">
+                <span>ROR</span>
+                <span>PRR</span>
+                <span>BCPNN</span>
+              </div>
+            </div>
+          </div>
+          <div class="rotator-dots"><span></span><span></span><span></span></div>
+        </div>
+
+        <h3>
+          <a href="{{ '/03-glp1-sentinel/' | relative_url }}">GLP1-Sentinel: Pharmacovigilance Signal Detection</a>
+        </h3>
+        <p>End-to-end pharmacovigilance pipeline with regulatory-grade signal detection across FAERS.</p>
+
+        <div class="project-tags">
+          <span class="tag tag-e2e">END-TO-END</span>
+          <span class="tag tag-solo">SOLO</span>
+        </div>
+      </div>
+
+      <div class="project-actions">
+        <a class="btn-link" href="https://github.com/EstherKim97/GLP1-Sentinel">GitHub</a>
+      </div>
+    </div>
+
+    <!-- MaxBindAI — FEATURED / ROTATOR -->
+    <div class="project-card featured">
+      <div>
+        <div class="project-eyebrow">🧠 ML</div>
+
+        <div class="rotator">
+          <div class="rotator-slide">
+            <img src="{{ '/assets/img/projects/Myoglobin.png' | relative_url }}" alt="MaxBindAI">
+          </div>
+          <div class="rotator-slide">
+            <div class="rotator-stat">
+              <div class="num">🏆 2nd Prize</div>
+              <div class="label">Hackathon award for CNN-based binding-affinity prediction</div>
+            </div>
+          </div>
+          <div class="rotator-slide">
+            <div class="rotator-stack">
+              <div class="kicker">Built with</div>
+              <div class="chips">
+                <span>CNN</span>
+                <span>PyTorch</span>
+                <span>Drug Discovery</span>
+              </div>
+            </div>
+          </div>
+          <div class="rotator-dots"><span></span><span></span><span></span></div>
+        </div>
+
+        <h3>
+          <a href="{{ '/02-maxbindai/' | relative_url }}">MaxBindAI</a>
+        </h3>
+        <p>CNN-based ligand affinity prediction for drug discovery — 2nd Prize Winner.</p>
+
+        <div class="project-tags">
+          <span class="tag">ML</span>
+          <span class="tag tag-fork">FORK/COLLAB</span>
+        </div>
+      </div>
+
+      <div class="project-actions">
+        <a class="btn-link" href="https://github.com/EstherKim97/MaxBind-AI">GitHub</a>
+      </div>
+    </div>
+
+  </div>
 </div>
 
-<h2 style="margin-top: 30px;">🧠 ML / MODELING</h2>
+<div class="project-section">
+  <div class="section-kicker">Regulatory</div>
+  <h2 class="section-heading">Regulatory Sciences &amp; Intelligence</h2>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 10px 0 36px 0;">
+  <div class="project-grid">
 
-  <!-- MaxBindAI Project -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
-    <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🧠 ML</div>
+    <div class="project-card">
+      <div>
+        <div class="project-eyebrow">⚖️ Regulatory Sciences</div>
+        <div class="rotator-stat" style="border-radius:8px; height:160px; margin-bottom:12px;">
+          <div class="num" style="font-size:1.2rem;">FDA Pathway Intelligence</div>
+          <div class="label">for Digital Health &amp; Devices</div>
+        </div>
 
-        <img src="{{ '/assets/img/projects/Myoglobin.png' | relative_url }}" 
-          alt="MaxBindAI"
-          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
+        <h3>
+          <a href="https://github.com/EstherKim97/FDA-Device-Digital-Health-Pathway-Intelligence">FDA Device / Digital Health Pathway Intelligence</a>
+        </h3>
+        <p>One of the projects closest to my heart: a regulatory-science decision-support dashboard that maps likely FDA pathways, identifies predicate devices, and surfaces evidence gaps for early-stage digital health and medical device strategy.</p>
 
-    <h3 style="margin-bottom: 6px;">
-      <a href="{{ '/02-maxbindai/' | relative_url }}" style="text-decoration: none; color: #333;">
-        MaxBindAI
-      </a>
-    </h3>
+        <div class="project-tags">
+          <span class="tag tag-reg">REGULATORY SCIENCE</span>
+          <span class="tag tag-solo">SOLO</span>
+        </div>
+      </div>
 
-    <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
-      CNN-based ligand affinity prediction for drug discovery - 2nd Prize Winner 🏆
-    </p>
-
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
-      <span style="font-size: 11px; background: #eef2ff; color: #4338ca; padding: 4px 8px; border-radius: 999px;">🧠 ML</span>
-      <span style="font-size: 11px; background: #fef3c7; color: #92400e; padding: 4px 8px; border-radius: 999px;">🔀 FORK/COLLAB</span>
+      <div class="project-actions">
+        <a class="btn-link" href="https://github.com/EstherKim97/FDA-Device-Digital-Health-Pathway-Intelligence">GitHub</a>
+      </div>
     </div>
 
-    <a href="https://github.com/EstherKim97/MaxBind-AI"
-       style="background: #007acc; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px;">
-       GitHub
-    </a>
   </div>
-
-  <!-- Clinical Trial Eligibility Extraction -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
-    <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🧠 ML</div>
-
-        <img src="{{ '/assets/img/projects/Clinical-Trial-Eligibility-Criteria-Extraction.svg' | relative_url }}" 
-          alt="Clinical Trial Eligibility Criteria Extraction"
-          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
-
-    <h3 style="margin-bottom: 6px;">
-      <a href="https://github.com/EstherKim97/Clinical-Trial-Eligibility-Criteria-Extraction" style="text-decoration: none; color: #333;">
-        Clinical Trial Eligibility Criteria Extraction
-      </a>
-    </h3>
-
-    <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
-      NLP pipeline extracting eligibility criteria from ClinicalTrials.gov for trial matching and cohort screening.
-    </p>
-
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
-      <span style="font-size: 11px; background: #eef2ff; color: #4338ca; padding: 4px 8px; border-radius: 999px;">🧠 ML</span>
-      <span style="font-size: 11px; background: #dcfce7; color: #166534; padding: 4px 8px; border-radius: 999px;">👤 SOLO</span>
-    </div>
-
-    <a href="https://github.com/EstherKim97/Clinical-Trial-Eligibility-Criteria-Extraction"
-       style="background: #007acc; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px;">
-       GitHub
-    </a>
-  </div>
-
 </div>
 
-<h2 style="margin-top: 30px;">🚀 APPLICATION / PRODUCT</h2>
+<div class="project-section">
+  <div class="section-kicker">Publications</div>
+  <h2 class="section-heading">Published Research</h2>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 10px 0 36px 0;">
+  <div class="project-grid">
 
-  <!-- DigitalTwin Project -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
-    <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🚀 END-TO-END</div>
-
-        <img src="{{ '/assets/img/projects/DigitalTwin.png' | relative_url }}" 
-          alt="DigitalTwin"
-          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
-
-    <h3 style="margin-bottom: 6px;">
-      <a href="{{ '/01-digitaltwin/' | relative_url }}" style="text-decoration: none; color: #333;">
-        DigitalTwin: Cough-Based Respiratory Disease Detection
-      </a>
-    </h3>
-
-    <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
-      Machine learning platform for respiratory screening using cough acoustics.
-    </p>
-
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
-      <span style="font-size: 11px; background: #ecfeff; color: #0f766e; padding: 4px 8px; border-radius: 999px;">🚀 END-TO-END</span>
-      <span style="font-size: 11px; background: #fef3c7; color: #92400e; padding: 4px 8px; border-radius: 999px;">👥 TEAM</span>
+    <div class="project-card">
+      <div>
+        <div class="project-eyebrow">📖 In preparation</div>
+        <h3>Multi-omics Kidney Transplant Cohort</h3>
+        <p>
+          Led statistical design and end-to-end analysis of a multimodal kidney-transplant longitudinal cohort integrating 42-marker CyTOF (~32.3M cells), metabolomics, and clinical data. Identified candidate immune-metabolic biomarkers for pre-transplant allograft rejection risk stratification, and built reproducible R pipelines for publication-ready analyses in collaboration with transplant clinicians.
+        </p>
+        <div class="project-tags">
+          <span class="tag">IN PREPARATION</span>
+        </div>
+      </div>
     </div>
 
-    <a href="https://github.com/haile-teshome/DigitalTwin"
-       style="background: #007acc; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px;">
-       GitHub
-    </a>
-  </div>
-
-  <!-- GLP1-Sentinel Project -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
-    <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🚀 END-TO-END</div>
-
-        <img src="{{ '/assets/img/projects/GLP1.png' | relative_url }}" 
-          alt="GLP1-Sentinel"
-          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
-
-    <h3 style="margin-bottom: 6px;">
-      <a href="{{ '/03-glp1-sentinel/' | relative_url }}" style="text-decoration: none; color: #333;">
-        GLP1-Sentinel: Pharmacovigilance Signal Detection
-      </a>
-    </h3>
-
-    <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
-      End-to-end pharmacovigilance pipeline analyzing 20M+ FAERS records with regulatory-grade signal detection (ROR, PRR, BCPNN).
-    </p>
-
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
-      <span style="font-size: 11px; background: #ecfeff; color: #0f766e; padding: 4px 8px; border-radius: 999px;">🚀 END-TO-END</span>
-      <span style="font-size: 11px; background: #dcfce7; color: #166534; padding: 4px 8px; border-radius: 999px;">👤 SOLO</span>
+    <div class="project-card">
+      <div>
+        <div class="project-eyebrow">📖 In preparation</div>
+        <h3>Scleroderma scRNA-seq — CellChat Analysis</h3>
+        <p>
+          Analyzed single-cell RNA-seq data from scleroderma-associated interstitial lung disease and used CellChat to identify disease-specific cell–cell signaling networks.
+        </p>
+        <div class="project-tags">
+          <span class="tag">IN PREPARATION</span>
+        </div>
+      </div>
     </div>
 
-    <a href="https://github.com/EstherKim97/GLP1-Sentinel"
-       style="background: #007acc; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px;">
-       GitHub
-    </a>
   </div>
-
-  <!-- mhealth_abtesting -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
-    <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🚀 END-TO-END</div>
-
-        <img src="{{ '/assets/img/projects/mhealth_abtesting.svg' | relative_url }}" 
-          alt="mhealth_abtesting"
-          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
-
-    <h3 style="margin-bottom: 6px;">
-      <a href="https://github.com/EstherKim97/mhealth_abtesting" style="text-decoration: none; color: #333;">
-        mhealth_abtesting
-      </a>
-    </h3>
-
-    <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
-      Streamlit dashboard for A/B testing mHealth interventions using real UCI physiological sensor data and effect-size analysis.
-    </p>
-
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
-      <span style="font-size: 11px; background: #ecfeff; color: #0f766e; padding: 4px 8px; border-radius: 999px;">🚀 END-TO-END</span>
-      <span style="font-size: 11px; background: #dcfce7; color: #166534; padding: 4px 8px; border-radius: 999px;">👤 SOLO</span>
-    </div>
-
-    <a href="https://github.com/EstherKim97/mhealth_abtesting"
-       style="background: #007acc; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px;">
-       GitHub
-    </a>
-  </div>
-  
-  <!-- SeaTRAC TB Hack Day -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
-    <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🏥 Hackathon</div>
-
-    <img src="{{ '/assets/img/projects/seatrac-hackday.svg' | relative_url }}" 
-         alt="SeaTRAC TB Hack Day"
-         style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
-
-    <h3 style="margin-bottom: 6px;">SeaTRAC TB Hack Day</h3>
-
-    <p style="color: #666; font-size: 14px; margin-bottom: 10px;">Collaborative TB clinical-trial dataset profiling hack day (Feb 11, 2026). Participated at UCSF — exploratory analyses using the event repository.</p>
-
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
-      <span style="font-size: 11px; background: #ecfeff; color: #0f766e; padding: 4px 8px; border-radius: 999px;">🏥 Hackathon</span>
-      <span style="font-size: 11px; background: #fef3c7; color: #92400e; padding: 4px 8px; border-radius: 999px;">👥 TEAM</span>
-    </div>
-
-    <a href="https://github.com/agartland/seatrac-hackday-2026"
-       style="background: #007acc; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px;">
-       GitHub
-    </a>
-  </div>
-  
 </div>
 
-<h2 style="margin-top: 30px;">🕸️ DATA & KNOWLEDGE SYSTEMS</h2>
+<div class="project-section">
+  <div class="section-kicker">Modeling</div>
+  <h2 class="section-heading">ML / Modeling</h2>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 10px 0 36px 0;">
+  <div class="project-grid">
 
-  <!-- KnowledgeGraph -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
-    <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🕸️ DATA/NLP</div>
-
-        <img src="{{ '/assets/img/projects/KnowledgeGraph.svg' | relative_url }}" 
-          alt="KnowledgeGraph"
-          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
-
-    <h3 style="margin-bottom: 6px;">
-      <a href="https://github.com/EstherKim97/KnowledgeGraph" style="text-decoration: none; color: #333;">
-        KnowledgeGraph
-      </a>
-    </h3>
-
-    <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
-      AI-powered biomedical evidence intelligence platform that turns PubMed literature into structured claims, knowledge graphs, and research briefs.
-    </p>
-
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
-      <span style="font-size: 11px; background: #f5f3ff; color: #6d28d9; padding: 4px 8px; border-radius: 999px;">🕸️ DATA/NLP</span>
-      <span style="font-size: 11px; background: #dcfce7; color: #166534; padding: 4px 8px; border-radius: 999px;">👤 SOLO</span>
+    <div class="project-card">
+      <div>
+        <div class="project-eyebrow">🧠 ML</div>
+        <img class="project-cover" src="{{ '/assets/img/projects/Clinical-Trial-Eligibility-Criteria-Extraction.svg' | relative_url }}" alt="Clinical Trial Eligibility Criteria Extraction">
+        <h3>
+          <a href="https://github.com/EstherKim97/Clinical-Trial-Eligibility-Criteria-Extraction">Clinical Trial Eligibility Criteria Extraction</a>
+        </h3>
+        <p>NLP pipeline extracting eligibility criteria from ClinicalTrials.gov for trial matching and cohort screening.</p>
+        <div class="project-tags">
+          <span class="tag">ML</span>
+          <span class="tag tag-solo">SOLO</span>
+        </div>
+      </div>
+      <div class="project-actions">
+        <a class="btn-link" href="https://github.com/EstherKim97/Clinical-Trial-Eligibility-Criteria-Extraction">GitHub</a>
+      </div>
     </div>
 
-    <a href="https://github.com/EstherKim97/KnowledgeGraph"
-       style="background: #007acc; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px;">
-       GitHub
-    </a>
   </div>
-
-  <!-- AuData -->
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); min-height: 360px; display:flex; flex-direction:column; justify-content:space-between;">
-    <div style="font-size: 12px; color: #2F3CFF; margin-bottom: 6px;">🕸️ DATA/NLP</div>
-
-        <img src="{{ '/assets/img/projects/AuData.svg' | relative_url }}" 
-          alt="AuData"
-          style="width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 12px;">
-
-    <h3 style="margin-bottom: 6px;">
-      <a href="https://github.com/haile-teshome/AuData" style="text-decoration: none; color: #333;">
-        AuData
-      </a>
-    </h3>
-
-    <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
-      Collaborative data-focused repository included here as a forked contribution in the knowledge systems category.
-    </p>
-
-    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
-      <span style="font-size: 11px; background: #f5f3ff; color: #6d28d9; padding: 4px 8px; border-radius: 999px;">🕸️ DATA/NLP</span>
-      <span style="font-size: 11px; background: #fef3c7; color: #92400e; padding: 4px 8px; border-radius: 999px;">🔀 FORK/COLLAB</span>
-    </div>
-
-    <a href="https://github.com/haile-teshome/AuData"
-       style="background: #007acc; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px;">
-       GitHub
-    </a>
-  </div>
-
 </div>
 
+<div class="project-section">
+  <div class="section-kicker">Applied</div>
+  <h2 class="section-heading">Application / Product</h2>
+
+  <div class="project-grid">
+
+    <div class="project-card">
+      <div>
+        <div class="project-eyebrow">🚀 End-to-End</div>
+        <img class="project-cover" src="{{ '/assets/img/projects/mhealth_abtesting.svg' | relative_url }}" alt="mhealth_abtesting">
+        <h3>
+          <a href="https://github.com/EstherKim97/mhealth_abtesting">mhealth_abtesting</a>
+        </h3>
+        <p>Streamlit dashboard for A/B testing mHealth interventions using real UCI physiological sensor data and effect-size analysis.</p>
+        <div class="project-tags">
+          <span class="tag tag-e2e">END-TO-END</span>
+          <span class="tag tag-solo">SOLO</span>
+        </div>
+      </div>
+      <div class="project-actions">
+        <a class="btn-link" href="https://github.com/EstherKim97/mhealth_abtesting">GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div>
+        <div class="project-eyebrow">🏥 Hackathon</div>
+        <img class="project-cover" src="{{ '/assets/img/projects/seatrac-hackday.svg' | relative_url }}" alt="SeaTRAC TB Hack Day">
+        <h3>SeaTRAC TB Hack Day</h3>
+        <p>Collaborative TB clinical-trial dataset profiling hack day (Feb 11, 2026). Participated at UCSF — exploratory analyses using the event repository.</p>
+        <div class="project-tags">
+          <span class="tag tag-e2e">HACKATHON</span>
+          <span class="tag tag-team">TEAM</span>
+        </div>
+      </div>
+      <div class="project-actions">
+        <a class="btn-link" href="https://github.com/agartland/seatrac-hackday-2026">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="project-section">
+  <div class="section-kicker">Systems</div>
+  <h2 class="section-heading">Data &amp; Knowledge Systems</h2>
+
+  <div class="project-grid">
+
+    <div class="project-card">
+      <div>
+        <div class="project-eyebrow">🕸️ Data/NLP</div>
+        <img class="project-cover" src="{{ '/assets/img/projects/KnowledgeGraph.svg' | relative_url }}" alt="KnowledgeGraph">
+        <h3>
+          <a href="https://github.com/EstherKim97/KnowledgeGraph">KnowledgeGraph</a>
+        </h3>
+        <p>AI-powered biomedical evidence intelligence platform that turns PubMed literature into structured claims, knowledge graphs, and research briefs.</p>
+        <div class="project-tags">
+          <span class="tag tag-nlp">DATA/NLP</span>
+          <span class="tag tag-solo">SOLO</span>
+        </div>
+      </div>
+      <div class="project-actions">
+        <a class="btn-link" href="https://github.com/EstherKim97/KnowledgeGraph">GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div>
+        <div class="project-eyebrow">🕸️ Data/NLP</div>
+        <img class="project-cover" src="{{ '/assets/img/projects/AuData.svg' | relative_url }}" alt="AuData">
+        <h3>
+          <a href="https://github.com/haile-teshome/AuData">AuData</a>
+        </h3>
+        <p>Collaborative data-focused repository included here as a forked contribution in the knowledge-systems category.</p>
+        <div class="project-tags">
+          <span class="tag tag-nlp">DATA/NLP</span>
+          <span class="tag tag-fork">FORK/COLLAB</span>
+        </div>
+      </div>
+      <div class="project-actions">
+        <a class="btn-link" href="https://github.com/haile-teshome/AuData">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</div>
