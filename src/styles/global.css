@@ -193,3 +193,6 @@ h1.mega .soft{ color:#7D879C; }
   .rise.d2{ animation-delay:.1s; } .rise.d3{ animation-delay:.2s; }
   @keyframes rise{ from{ opacity:0; transform:translateY(24px); } to{ opacity:1; transform:none; } }
 }
+.about-head{ display:grid; grid-template-columns:minmax(0,1fr) minmax(0,340px); gap:56px; align-items:end; }
+.portrait{ width:100%; aspect-ratio:3/4; object-fit:cover; border-radius:24px; }
+@media (max-width:760px){ .about-head{ grid-template-columns:1fr; gap:28px; } .portrait{ max-width:280px; } }
