@@ -1,9 +1,9 @@
 ---
 title: Kidney transplant multi-omics
-summary: Brought four to five institutions together and integrated CyTOF, metabolomics and clinical data to find a pre-transplant signal for rejection.
+summary: "Brought four to five institutions together and integrated CyTOF, metabolomics and clinical data from kidney transplant patients. Findings are confidential pending a patent application."
 group: Biomedical research & discovery
 tracks: [Health Data Science]
-tags: [Research, Co-first author]
+tags: [Research, Co-first author, Patent pending]
 year: "2025–26"
 period: June 2025 – September 2026
 context: Sarwal and Sirota labs, UCSF
@@ -14,8 +14,6 @@ links: []
 featured: 3
 order: 1
 stats:
-  - value: "6 of 7"
-    label: Rejection cases flagged by a pre-transplant γδ T-cell signature
   - value: "28"
     label: Patients
   - value: "~32.3M"
@@ -24,24 +22,16 @@ stats:
 
 ## Problem
 
-Kidney transplant rejection is hard to predict before transplant. This study asked whether immune and metabolic profiles taken beforehand could flag patients at risk.
+Kidney transplant rejection is hard to predict before transplant. This study asked whether immune and metabolic profiles could help.
 
 ## My role
 
-I was the only non-faculty researcher who brought four to five institutions together into one collaboration: UCSF, Penn, and groups in Madrid and Barcelona. I integrated CyTOF data (42 markers, about 32.3 million cells) with metabolomics and clinical data for 28 patients, including normalization and batch correction.
-
-## What broke and what I changed
-
-The CyTOF profiles did not show the differences we expected. I changed the analysis to a Random Forest classifier and used nested cross-validation and multiple-testing correction to keep the model from overfitting.
+I was the only non-faculty researcher who brought four to five institutions together into one collaboration: UCSF, Penn, and groups in Madrid and Barcelona. I integrated CyTOF data (42 markers, about 32.3 million cells) with metabolomics and clinical data for 28 patients, including normalization and batch correction, and built the statistical analysis with Random Forest models, nested cross-validation and multiple-testing correction.
 
 ## Results
 
-A pre-transplant γδ T-cell based signature identified 6 of the 7 rejection cases among 28 patients.
+The findings are part of a pending patent application, so I can't share them here. I'm happy to discuss the methods in an interview.
 
 ## Publication
 
-Manuscript submitted, co-first author. Poster at UCSF Research AI Day 2026: Immune Profiling Identifies γδ T Cell Signatures as Biomarkers of Acute Rejection in Kidney Transplantation.
-
-## Limits and next
-
-28 patients is a small cohort, so the signature is a candidate for validation, not a clinical test. The next step is testing it in an independent cohort.
+Manuscript submitted, co-first author. Poster presented at UCSF Research AI Day 2026.
