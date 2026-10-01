@@ -23,7 +23,7 @@ career:
     note: "Global new drug RA. Four biologics programs."
   - years: "2024–2026"
     title: "MS Health Data Science, UCSF"
-    note: "GPA 3.93 / 4.0"
+    note: "Epidemiology and Biostatistics"
   - years: "2025–2026"
     title: "AI evaluation, UCSF Innovation Ventures"
     note: "Success criteria for clinical decision-support AI."
@@ -114,9 +114,9 @@ about:
       what: "Undergraduate researcher, Sogang University"
   education:
     - when: "2024.07 – 2026.09"
-      what: "MS Health Data Science, UCSF (GPA 3.93 / 4.0)"
+      what: "MS Health Data Science, UCSF"
     - when: "2021.02 – 2023.02"
-      what: "MS Pharmaceutical Sciences, Yonsei University (thesis: comparability of an EGFR/cMET bispecific antibody after a manufacturing change)"
+      what: "MS Pharmaceutical Sciences, Yonsei University"
     - when: "2015.12 – 2020.02"
       what: "BS Life Science, Sogang University"
   publications:
