@@ -1,12 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
-import TopBar from '../components/TopBar.astro';
 import T from '../components/T.astro';
 import { settings } from '../lib/settings';
 const s = settings(); const a = s.about;
 ---
 <Base title="About" current="about">
-  <TopBar />
   <div class="wrap">
     <div class="page-head"><h1 class="rise">About</h1><p class="lede">{a.intro}</p></div>
     <div class="cols">

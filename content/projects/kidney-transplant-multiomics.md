@@ -40,8 +40,8 @@ A pre-transplant γδ T-cell based signature identified 6 of the 7 rejection cas
 
 ## Publication
 
-[TO CONFIRM journal and status] · [TO CONFIRM whether a patent was filed]
+Manuscript submitted, co-first author. Poster at UCSF Research AI Day 2026: Immune Profiling Identifies γδ T Cell Signatures as Biomarkers of Acute Rejection in Kidney Transplantation.
 
 ## Limits and next
 
-[TO CONFIRM limits and next step]
+28 patients is a small cohort, so the signature is a candidate for validation, not a clinical test. The next step is testing it in an independent cohort.

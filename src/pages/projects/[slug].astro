@@ -14,9 +14,9 @@ const { Content, headings } = await render(p);
 const h2s = headings.filter(h => h.depth === 2);
 const facts = [['When', d.period], ['Context', d.context], ['Team', d.team], ['My role', d.role]].filter(([, v]) => v);
 ---
-<Base title={d.title} description={d.summary} current="work">
+<Base title={d.title} description={d.summary} current="projects">
   <section class="d-hero">
-    <div class="wrap topbar"><a class="mark" href="/">Seon Min Kim</a><a class="back" href="/work">All work</a></div>
+    <div class="wrap"><a class="back" href="/projects">← All projects</a></div>
     <div class="wrap">
       <div class="tags rise">{d.award && <span class="badge">{d.award}</span>}{d.tags.map((t: string) => <span class="tag"><T text={t} /></span>)}</div>
       <h1 class="rise d2">{d.title}</h1>
@@ -49,7 +49,7 @@ const facts = [['When', d.period], ['Context', d.context], ['Team', d.team], ['M
       {d.screenshots.length > 0 && (
         <div class="shots">{d.screenshots.map((sh: any) => <figure><img src={sh.src} alt={sh.caption} loading="lazy" /><figcaption>{sh.caption}</figcaption></figure>)}</div>
       )}
-      <a class="next" href={`/work/${next.id}`}><span>Next project</span><strong>{next.data.title}</strong></a>
+      <a class="next" href={`/projects/${next.id}`}><span>Next project</span><strong>{next.data.title}</strong></a>
     </div>
   </div>
 </Base>

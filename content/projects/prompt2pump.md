@@ -6,7 +6,7 @@ tracks: [Applied AI, Health Data Science]
 tags: [Team, Hackathon, Drug discovery]
 award: 1st place, Track 5
 year: "2026"
-period: "[TO CONFIRM month] 2026"
+period: "2026"
 context: Stanford Multi-omics Hackathon 2026, Track 5
 team: Team
 role: Defined the exercise signal (MoTrPAC), improved the model, wrote the documentation and gave the final presentation
@@ -29,18 +29,6 @@ Prompt2Pump uses MoLFormer-XL molecular embeddings to compare candidate drugs ag
 
 I defined the exercise signal using MoTrPAC, improved the model, wrote the documentation and gave the final presentation.
 
-## Problem
-
-[TO CONFIRM the question the team set out to answer]
-
-## Key decisions
-
-[TO CONFIRM one or two decisions you made, and why]
-
 ## Results
 
 The project won 1st place in Track 5 of the Stanford Multi-omics Hackathon 2026.
-
-## Limits and next
-
-[TO CONFIRM]

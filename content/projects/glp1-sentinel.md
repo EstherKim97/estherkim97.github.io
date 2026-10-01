@@ -3,16 +3,18 @@ title: GLP1-Sentinel
 summary: A signal detection pipeline over 20 years of raw FDA adverse event reports that reproduces known GLP-1 safety signals.
 group: Regulatory & safety intelligence
 tracks: [Health Data Science, Applied AI]
-tags: [Pharmacovigilance, "[TO CONFIRM solo or team]"]
-year: "[TO CONFIRM]"
-period: "[TO CONFIRM]"
-context: "[TO CONFIRM]"
-team: "[TO CONFIRM]"
-role: "[TO CONFIRM]"
-stack: [FAERS, ROR, PRR, IC]
+tags: [Solo, Pharmacovigilance]
+year: "2026"
+period: April 2026
+context: Personal project
+team: Solo
+role: Data engineering, statistics and domain design
+stack: [Python, pandas, Parquet, Plotly, FAERS, ROR, PRR, IC]
 links:
   - label: GitHub
     url: https://github.com/EstherKim97/GLP1-Sentinel
+  - label: Interactive report
+    url: https://htmlpreview.github.io/?https://github.com/EstherKim97/GLP1-Sentinel/blob/main/docs/eda_report.html
 featured: 4
 order: 2
 stats:
@@ -47,4 +49,4 @@ The pipeline processes all 20,904,555 reports from 2005 Q2 to 2024 Q3. Of these,
 
 ## Limits and next
 
-[TO CONFIRM limits and next step]
+FAERS is spontaneous reporting, so signals show disproportionate reporting, not incidence or causation. No Bonferroni correction is applied, which matches published GLP-1 FAERS studies; the output keeps the counts needed to correct downstream. Demographics are often missing (age group 83.7%, weight 79.7%), which does not affect the reaction-count signals but limits subgroup analysis.

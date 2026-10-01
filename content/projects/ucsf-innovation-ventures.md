@@ -7,7 +7,7 @@ tags: [Industry experience, AI evaluation]
 year: "2025–26"
 period: June 2025 – March 2026
 context: UCSF Innovation Ventures
-team: "[TO CONFIRM]"
+team: Team
 role: AI health technology evaluation intern
 stack: [Evaluation design, Clinician interviews]
 links: []
@@ -29,6 +29,10 @@ I set the criteria the technology had to meet: at least 90% accuracy on 800 path
 
 Interviews with clinicians showed that EHR integration and changes to clinical workflow were the main barriers to adoption.
 
+## Other work
+
+I also built Target Product Profiles for MAC Copilot, a dementia-care decision-support tool from UCSF's Memory and Aging Center, assessing market and regulatory feasibility with clinicians and researchers.
+
 ## Outcome
 
-Development of the technology continued at a startup. Separately, a metabolomics analysis tool received $20K in initial funding. [TO CONFIRM your role in each]
+Development of the technology continued at a startup. Separately, a metabolomics analysis tool received $20K in initial funding.

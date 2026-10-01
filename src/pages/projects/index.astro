@@ -1,6 +1,5 @@
 ---
 import Base from '../../layouts/Base.astro';
-import TopBar from '../../components/TopBar.astro';
 import ProjectRow from '../../components/ProjectRow.astro';
 import Peek from '../../components/Peek.astro';
 import { settings } from '../../lib/settings';
@@ -8,11 +7,10 @@ import { allProjects } from '../../lib/projects';
 const s = settings();
 const projects = await allProjects();
 ---
-<Base title="Work" current="work">
-  <TopBar />
+<Base title="Projects" current="projects">
   <div class="wrap">
     <div class="page-head">
-      <h1 class="rise">Work</h1>
+      <h1 class="rise">All projects</h1>
       <p class="lede">{projects.length} projects in {s.groups.length} groups. Filter by the role you are hiring for.</p>
       <div class="filters" role="group" aria-label="Filter by role track">
         <button aria-pressed="true" data-f="all">All</button>

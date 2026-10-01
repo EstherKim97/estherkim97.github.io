@@ -18,13 +18,13 @@ Check the **Actions** tab: green check = live, red X = something to fix (the old
 
 1. Open `content/projects/_TEMPLATE.md`, copy everything.
 2. In `content/projects`, click **Add file → Create new file**, name it `my-project.md`, paste, fill in.
-3. Commit. It appears in its group, in the filters, gets its own page, and is added to llms.txt.
+3. Commit. It appears on the Projects page in its group, in the filters, gets its own page, and is added to llms.txt.
 
 - `group:` must be one of the names in `settings.yaml` → `groups`, spelled exactly.
 - `tracks:` can only be `Applied AI` and/or `Health Data Science`.
 - `featured: 1`–`5` puts it on the home page. Leave empty otherwise.
 - `order:` sorts it inside its group (smaller = higher).
-- `hidden: true` keeps it off the site.
+- `hidden: true` keeps it off the site (every project is currently shown).
 
 ## Orange boxes
 

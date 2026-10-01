@@ -24,12 +24,17 @@ const pageTitle = title ? `${title} | ${s.name}` : `${s.name} | Health data scie
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <nav class="nav" aria-label="Main">
-    <a href="/" aria-current={current === 'home' ? 'page' : undefined}>Home</a>
-    <a href="/work" aria-current={current === 'work' ? 'page' : undefined}>Work</a>
-    <a href="/hire" aria-current={current === 'hire' ? 'page' : undefined}>For recruiters</a>
-    <a href="/about" aria-current={current === 'about' ? 'page' : undefined}>About</a>
-  </nav>
+  <header class="site-head">
+    <div class="wrap head-row">
+      <a class="mark" href="/">{s.name}</a>
+      <nav class="nav" aria-label="Main">
+        <a href="/" aria-current={current === 'home' ? 'page' : undefined}>Home</a>
+        <a href="/projects" aria-current={current === 'projects' ? 'page' : undefined}>Projects</a>
+        <a href="/hire" aria-current={current === 'hire' ? 'page' : undefined}>For recruiters</a>
+        <a href="/about" aria-current={current === 'about' ? 'page' : undefined}>About</a>
+      </nav>
+    </div>
+  </header>
   <div id="main"><slot /></div>
 </body>
 </html>

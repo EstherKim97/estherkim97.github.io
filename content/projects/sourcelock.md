@@ -4,13 +4,15 @@ summary: Sentence-level evidence checks for pharma medical, legal and regulatory
 group: Regulatory & safety intelligence
 tracks: [Applied AI]
 tags: [Solo, Hackathon prototype]
-year: "[TO CONFIRM]"
-period: "[TO CONFIRM]"
+year: "2026"
+period: August 2026
 context: Hackathon prototype
 team: Solo
 role: Design and build
-stack: [TypeScript, Vitest, Amazon Bedrock]
-links: []
+stack: [Next.js, React, TypeScript, Vitest, Amazon Bedrock]
+links:
+  - label: GitHub
+    url: https://github.com/EstherKim97/SourceLock
 order: 4
 stats:
   - value: "5"

@@ -16,7 +16,7 @@ export async function GET({ site }: { site: URL }) {
       if (!items.length) return [];
       return [`## ${g.name}`, ...items.map(p => {
         const key = p.data.stats[0] ? ` Key result: ${p.data.stats[0].value} (${p.data.stats[0].label}).` : '';
-        return `- [${p.data.title}](${new URL('/work/' + p.id, site)}): ${clean(p.data.summary)}${p.data.award ? ' ' + p.data.award + '.' : ''}${key}`;
+        return `- [${p.data.title}](${new URL('/projects/' + p.id, site)}): ${clean(p.data.summary)}${p.data.award ? ' ' + p.data.award + '.' : ''}${key}`;
       }), ''];
     }),
     '## Experience',
