@@ -13,6 +13,7 @@ stack: [Python, Audio analysis, VAPI]
 links:
   - label: GitHub
     url: https://github.com/EstherKim97/DigitalTwin
+cover: /covers/digitaltwin.png
 order: 4
 stats: []
 ---

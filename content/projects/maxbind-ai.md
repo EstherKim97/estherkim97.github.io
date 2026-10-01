@@ -12,6 +12,7 @@ team: Team
 role: Collected and cleaned the training data from ChEMBL, PLINDER and PDBBind
 stack: [ChEMBL, PLINDER, PDBBind]
 links: []
+cover: /covers/maxbind-ai.jpg
 order: 5
 stats:
   - value: "$15K"

@@ -16,6 +16,7 @@ links:
   - label: Interactive report
     url: https://htmlpreview.github.io/?https://github.com/EstherKim97/GLP1-Sentinel/blob/main/docs/eda_report.html
 featured: 4
+cover: /covers/glp1-sentinel.png
 order: 2
 stats:
   - value: "20.9M"

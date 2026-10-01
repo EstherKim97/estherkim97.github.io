@@ -13,6 +13,7 @@ stack: [Python, ClinicalTrials.gov API v2, Regex NLP, pandas]
 links:
   - label: GitHub
     url: https://github.com/EstherKim97/Clinical-Trial-Eligibility-Criteria-Extraction
+cover: /covers/clinical-trial-eligibility.png
 order: 3
 stats:
   - value: "200+"

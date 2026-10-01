@@ -1,11 +1,13 @@
-<div class="peek" id="peek" aria-hidden="true"></div>
+<div class="peek" id="peek" aria-hidden="true"><img alt="" /></div>
 <script>
+  // Only projects with a real image (cover: in the project file) get a preview.
   const peek = document.getElementById('peek') as HTMLElement;
-  document.querySelectorAll<HTMLElement>('.it').forEach(el => {
-    el.addEventListener('mouseenter', () => { peek.style.backgroundImage = el.dataset.cover || ''; peek.classList.add('show'); });
+  const img = peek.querySelector('img')!;
+  document.querySelectorAll<HTMLElement>('.it[data-cover]').forEach(el => {
+    el.addEventListener('mouseenter', () => { img.src = el.dataset.cover!; peek.classList.add('show'); });
     el.addEventListener('mouseleave', () => peek.classList.remove('show'));
     el.addEventListener('mousemove', e => {
-      const x = Math.min(e.clientX + 170, innerWidth - 140);
+      const x = Math.min(e.clientX + 220, innerWidth - 190);
       peek.style.left = x + 'px'; peek.style.top = e.clientY + 'px';
     });
   });
