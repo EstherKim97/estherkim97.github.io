@@ -11,6 +11,7 @@ team: Team
 role: AI health technology evaluation intern
 stack: [Evaluation design, Clinician interviews]
 links: []
+experience: true
 order: 2
 stats: []
 ---

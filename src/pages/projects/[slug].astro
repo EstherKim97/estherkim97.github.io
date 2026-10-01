@@ -2,11 +2,15 @@
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import T from '../../components/T.astro';
-import { allProjects } from '../../lib/projects';
+import { allEntries } from '../../lib/projects';
 
 export async function getStaticPaths() {
-  const list = await allProjects();
-  return list.map((p, i) => ({ params: { slug: p.id }, props: { p, next: list[(i + 1) % list.length] } }));
+  const all = await allEntries();
+  // "Next" stays within projects, or within experience
+  return all.map(p => {
+    const list = all.filter(x => x.data.experience === p.data.experience);
+    return { params: { slug: p.id }, props: { p, next: list[(list.indexOf(p) + 1) % list.length] } };
+  });
 }
 const { p, next } = Astro.props;
 const d = p.data;
@@ -14,9 +18,9 @@ const { Content, headings } = await render(p);
 const h2s = headings.filter(h => h.depth === 2);
 const facts = [['When', d.period], ['Context', d.context], ['Team', d.team], ['My role', d.role]].filter(([, v]) => v);
 ---
-<Base title={d.title} description={d.summary} current="projects">
+<Base title={d.title} description={d.summary} current={d.experience ? "about" : "projects"}>
   <section class="d-hero">
-    <div class="wrap"><a class="back" href="/projects">← All projects</a></div>
+    <div class="wrap">{d.experience ? <a class="back" href="/about">← About</a> : <a class="back" href="/projects">← All projects</a>}</div>
     <div class="wrap">
       <div class="tags rise">{d.award && <span class="badge">{d.award}</span>}{d.tags.map((t: string) => <span class="tag"><T text={t} /></span>)}</div>
       <h1 class="rise d2">{d.title}</h1>
@@ -49,7 +53,7 @@ const facts = [['When', d.period], ['Context', d.context], ['Team', d.team], ['M
       {d.screenshots.length > 0 && (
         <div class="shots">{d.screenshots.map((sh: any) => <figure><img src={sh.src} alt={sh.caption} loading="lazy" /><figcaption>{sh.caption}</figcaption></figure>)}</div>
       )}
-      <a class="next" href={`/projects/${next.id}`}><span>Next project</span><strong>{next.data.title}</strong></a>
+      <a class="next" href={`/projects/${next.id}`}><span>{d.experience ? "Next role" : "Next project"}</span><strong>{next.data.title}</strong></a>
     </div>
   </div>
 </Base>

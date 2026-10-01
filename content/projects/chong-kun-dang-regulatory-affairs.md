@@ -11,6 +11,7 @@ team: Team
 role: Associate, regulatory affairs for four biologics programs
 stack: [MFDS, FDA, IND, Pre-IND]
 links: []
+experience: true
 order: 1
 stats:
   - value: "4"

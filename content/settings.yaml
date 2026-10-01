@@ -99,7 +99,11 @@ about:
     and English.
   experience:
     - when: "2025.06 – 2026.03"
-      what: "AI health technology evaluation intern, UCSF Innovation Ventures"
+      what: "AI health technology evaluation intern, UCSF Innovation Ventures (confidential)"
+      page: ucsf-innovation-ventures
+    - when: "2025 summer"
+      what: "Catalyst intern, UCSF Innovation Ventures (MAC Copilot product profile)"
+      page: mac-copilot-tpp
     - when: "2025.06 – 2026.09"
       what: "Researcher, Sarwal and Sirota labs, UCSF (kidney transplant multi-omics)"
     - when: "2025.11 – 2026"
@@ -108,6 +112,7 @@ about:
       what: "Educational assistant, DATASCI 202, UCSF (about 20 graduate students)"
     - when: "2020.07 – 2024.08"
       what: "Associate, Global New Drug RA team, Chong Kun Dang (four biologics programs)"
+      page: chong-kun-dang-regulatory-affairs
     - when: "2019.01"
       what: "Intern, SNP Genetics"
     - when: "2018.01 – 2019.07"

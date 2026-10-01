@@ -11,6 +11,7 @@ team: Team
 role: Catalyst summer intern
 stack: [Target Product Profiles, Regulatory feasibility, Market analysis]
 links: []
+experience: true
 order: 3
 stats: []
 ---
