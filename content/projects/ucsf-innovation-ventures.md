@@ -1,9 +1,9 @@
 ---
-title: UCSF Innovation Ventures
-summary: Defined success criteria for a clinical decision-support AI and learned from clinicians what actually blocks adoption.
+title: Clinical decision-support AI evaluation
+summary: Set the success criteria a clinical decision-support AI had to meet before use in care, and learned from clinicians what blocks adoption. Under a confidentiality agreement.
 group: Clinical AI
 tracks: [Applied AI]
-tags: [Industry experience, AI evaluation]
+tags: [Industry experience, AI evaluation, Confidential]
 year: "2025–26"
 period: June 2025 – March 2026
 context: UCSF Innovation Ventures
@@ -12,27 +12,21 @@ role: AI health technology evaluation intern
 stack: [Evaluation design, Clinician interviews]
 links: []
 order: 2
-stats:
-  - value: "≥90%"
-    label: Accuracy target on 800 pathology-confirmed cases
-  - value: "≤5%"
-    label: Allowed performance gap between patient groups
-  - value: "≤5s"
-    label: Response time target
+stats: []
 ---
 
-## Defining success for a decision-support AI
+## Confidential
 
-I set the criteria the technology had to meet: at least 90% accuracy on 800 pathology-confirmed cases, no more than a 5% performance gap between patient groups, and a response time of 5 seconds or less.
+This work is covered by a confidentiality agreement, so I can't name the technology or share specific results here. I'm happy to talk about my approach in an interview, within what the agreement allows.
+
+## What I did
+
+I defined the success criteria the technology had to meet before clinical use: accuracy against confirmed diagnoses, the largest acceptable performance gap between patient groups, and response time.
 
 ## What clinicians told us
 
-Interviews with clinicians showed that EHR integration and changes to clinical workflow were the main barriers to adoption.
-
-## Other work
-
-I also built Target Product Profiles for MAC Copilot, a dementia-care decision-support tool from UCSF's Memory and Aging Center, assessing market and regulatory feasibility with clinicians and researchers.
+Interviews with clinicians showed that EHR integration and changes to clinical workflow were the main barriers to adoption, more than model accuracy.
 
 ## Outcome
 
-Development of the technology continued at a startup. Separately, a metabolomics analysis tool received $20K in initial funding.
+Development of the technology continued at a startup.
