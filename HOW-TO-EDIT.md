@@ -25,6 +25,7 @@ Check the **Actions** tab: green check = live, red X = something to fix (the old
 - `featured: 1`–`5` puts it on the home page. Leave empty otherwise.
 - `order:` sorts it inside its group (smaller = higher).
 - `hidden: true` keeps it off the site (every project is currently shown).
+- `experience: true` marks a job: it gets its own page but is listed under Experience on the About page, not on Projects. Link it from `settings.yaml` → `about` → `experience` with `page: <file-name>`.
 
 ## Orange boxes
 

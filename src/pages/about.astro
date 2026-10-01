@@ -13,7 +13,7 @@ const s = settings(); const a = s.about;
     <div class="cols">
       <div>
         <h2>Experience</h2>
-        <ul class="list">{a.experience.map((e: any) => <li><span class="w">{e.when}</span><span>{e.what}</span></li>)}</ul>
+        <ul class="list">{a.experience.map((e: any) => <li><span class="w">{e.when}</span><span>{e.page ? <a href={`/projects/${e.page}`}>{e.what}</a> : e.what}</span></li>)}</ul>
       </div>
       <div>
         <h2>Education</h2>

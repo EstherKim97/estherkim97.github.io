@@ -24,6 +24,7 @@ const projects = defineCollection({
     featured: z.number().nullish(),
     order: z.number().default(99),
     hidden: z.boolean().default(false),
+    experience: z.boolean().default(false),
     stats: z.array(z.object({ value: z.coerce.string(), label: z.string() })).default([]),
     stages: z.array(z.object({ name: z.string(), text: z.string(), by: z.string() })).default([]),
     screenshots: z.array(z.object({ src: z.string(), caption: z.string().default('') })).default([]),
