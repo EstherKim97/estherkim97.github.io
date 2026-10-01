@@ -23,7 +23,7 @@ stats:
 ## Programs
 
 - **Biosimilars:** ranibizumab and risankizumab
-- **Novel drugs:** an EGFR/c-MET bispecific antibody, an antibody-drug conjugate (ADC) and a small-molecule drug
+- **Novel drugs:** an EGFR/c-MET bispecific antibody, an antibody-drug conjugate (ADC), and an investigational small-molecule HDAC6 inhibitor for Charcot-Marie-Tooth disease (CMT) with FDA orphan drug designation
 
 Submissions went to MFDS (Korea) and FDA.
 
