@@ -14,7 +14,7 @@ links:
   - label: GitHub
     url: https://github.com/EstherKim97/Clinical-Trial-Eligibility-Criteria-Extraction
 cover: /covers/clinical-trial-eligibility.png
-order: 3
+order: 4
 stats:
   - value: "200+"
     label: Medical entities extracted from 40 trials
