@@ -1,6 +1,6 @@
 ---
 title: Global RA team, Chong Kun Dang
-summary: Four years as a regulatory affairs specialist, on biosimilars of ranibizumab and risankizumab and on novel drugs: a bispecific antibody, an antibody-drug conjugate and a small-molecule drug. Product approval, post-approval change, IND and FDA pre-IND.
+summary: "Four years as a regulatory affairs specialist, on biosimilars of ranibizumab and risankizumab and on novel drugs: a bispecific antibody, an antibody-drug conjugate and a small-molecule drug. Product approval, post-approval change, IND and FDA pre-IND."
 group: Regulatory & safety intelligence
 tracks: [Applied AI, Health Data Science]
 tags: [Industry experience]
