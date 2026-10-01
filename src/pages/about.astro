@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import TopBar from '../components/TopBar.astro';
+import T from '../components/T.astro';
+import { settings } from '../lib/settings';
+const s = settings(); const a = s.about;
+---
+<Base title="About" current="about">
+  <TopBar />
+  <div class="wrap">
+    <div class="page-head"><h1 class="rise">About</h1><p class="lede">{a.intro}</p></div>
+    <div class="cols">
+      <div>
+        <h2>Experience</h2>
+        <ul class="list">{a.experience.map((e: any) => <li><span class="w">{e.when}</span><span>{e.what}</span></li>)}</ul>
+      </div>
+      <div>
+        <h2>Education</h2>
+        <ul class="list">{a.education.map((e: any) => <li><span class="w">{e.when}</span><span>{e.what}</span></li>)}</ul>
+        <h2 style="margin-top:48px">Publications</h2>
+        <ul class="list">{a.publications.map((p: string) => <li style="grid-template-columns:1fr"><span><T text={p} /></span></li>)}</ul>
+      </div>
+    </div>
+  </div>
+</Base>

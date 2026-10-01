@@ -1,0 +1,12 @@
+<div class="peek" id="peek" aria-hidden="true"></div>
+<script>
+  const peek = document.getElementById('peek') as HTMLElement;
+  document.querySelectorAll<HTMLElement>('.it').forEach(el => {
+    el.addEventListener('mouseenter', () => { peek.style.backgroundImage = el.dataset.cover || ''; peek.classList.add('show'); });
+    el.addEventListener('mouseleave', () => peek.classList.remove('show'));
+    el.addEventListener('mousemove', e => {
+      const x = Math.min(e.clientX + 170, innerWidth - 140);
+      peek.style.left = x + 'px'; peek.style.top = e.clientY + 'px';
+    });
+  });
+</script>

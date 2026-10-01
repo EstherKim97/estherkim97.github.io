@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro';
+import TopBar from '../../components/TopBar.astro';
+import ProjectRow from '../../components/ProjectRow.astro';
+import Peek from '../../components/Peek.astro';
+import { settings } from '../../lib/settings';
+import { allProjects } from '../../lib/projects';
+const s = settings();
+const projects = await allProjects();
+---
+<Base title="Work" current="work">
+  <TopBar />
+  <div class="wrap">
+    <div class="page-head">
+      <h1 class="rise">Work</h1>
+      <p class="lede">{projects.length} projects in {s.groups.length} groups. Filter by the role you are hiring for.</p>
+      <div class="filters" role="group" aria-label="Filter by role track">
+        <button aria-pressed="true" data-f="all">All</button>
+        {s.tracks.map((t: any) => <button aria-pressed="false" data-f={t.name}>{t.title}</button>)}
+      </div>
+    </div>
+    {s.groups.map((g: any) => {
+      const items = projects.filter(p => p.data.group === g.name);
+      return items.length > 0 && (
+        <section class="group" data-group>
+          <h2 class="group-h">{g.name}</h2>
+          <p class="group-about">{g.about}</p>
+          <div class="idx">{items.map(p => <ProjectRow p={p} small />)}</div>
+        </section>
+      );
+    })}
+    <div style="height:140px"></div>
+  </div>
+  <Peek />
+  <script>
+    const btns = document.querySelectorAll<HTMLButtonElement>('.filters button');
+    btns.forEach(b => b.addEventListener('click', () => {
+      btns.forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+      const f = b.dataset.f!;
+      document.querySelectorAll<HTMLElement>('.it').forEach(it => {
+        it.hidden = f !== 'all' && !(it.dataset.tracks || '').split('|').includes(f);
+      });
+      document.querySelectorAll<HTMLElement>('[data-group]').forEach(g => {
+        g.hidden = !g.querySelector('.it:not([hidden])');
+      });
+    }));
+  </script>
+</Base>
