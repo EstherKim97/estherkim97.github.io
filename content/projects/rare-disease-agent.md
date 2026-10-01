@@ -9,7 +9,7 @@ period: July 2026, built in one day
 context: Abridge × Anthropic × Lightspeed hackathon
 team: Solo
 role: Design, build and evaluation
-stack: [Claude, Human Phenotype Ontology, phenopacket-store, "[TO CONFIRM other tools]"]
+stack: [Claude, Python, FastAPI, Human Phenotype Ontology, Orphanet, OMIM, phenopacket-store, ClinicalTrials.gov API]
 links:
   - label: GitHub
     url: https://github.com/EstherKim97/Rare-agent
@@ -54,7 +54,7 @@ Stages 2 to 4 only query ontology and curated data. Because of that, they cannot
 | Terms were tracked by name, and an HPO version update broke the build. | Switched to permanent HPO IDs. |
 | Using all 12,717 diseases overrated the ones with few annotations. | Kept the 8,213 diseases with 10 or more annotations. |
 | Information-content weighting did nothing on small sets, but on the large set it moved the correct answer from 2nd to 1st. | Applied the weighting to the large set only. |
-| When masking answers in test cases, I hid too much and removed key clues as well. | [TO CONFIRM how masking was fixed] |
+| When masking answers in test cases, I also hid the enzyme, which removed the most diagnostic line ("reduced α-galactosidase A activity"). | Mask only the disease name, so the test keeps what a real clinician would see. |
 
 ## Results
 
@@ -64,10 +64,10 @@ Is the score real?
 
 | Check | Value | What it shows |
 |---|---|---|
-| Baseline | 44.5% | [TO CONFIRM one-line definition] |
-| Permutation | 0.1–4.0% | [TO CONFIRM one-line definition] |
-| Leakage test | 49% | [TO CONFIRM one-line definition] |
-| Ablation | −3.7 pt | [TO CONFIRM which part was removed] |
+| Baseline | 44.5% | Always guessing the most common disease. The real score must beat this. |
+| Permutation | 0.1–4.0% | Phenotypes shuffled across diseases. Accuracy collapses, so the signal is in the mapping. |
+| Leakage test | 49% | Share of each test case's terms found in the curated set. Near 100% would make the test circular. |
+| Ablation | −3.7 pt | Removing the ontology ancestor walk. That part earns its place. |
 
 Does it raise false alarms?
 
@@ -77,12 +77,6 @@ Does it raise false alarms?
 | Synthetic clinical notes | 0 / 25 | No high-confidence rare disease call |
 | Automated tests | 18 | In the repository |
 
-## Impact
-
-[TO CONFIRM hackathon outcome, feedback, or who could use this]
-
 ## Limits and next
 
-The evaluation uses published case reports, which are cleaner and more complete than real clinical notes. The system is also weaker on atypical presentations, where the textbook features are missing.
-
-[TO CONFIRM next step you would take]
+The evaluation uses published case reports, which are cleaner and more complete than real clinical notes. The system is also weaker on atypical presentations, where the textbook features are missing. Late-onset cardiac Fabry presenting as polymyalgia rheumatica is ranked as a cardiomyopathy. Loeys-Dietz is often ranked as Marfan (140 of 235 cases), though both share the same gene panel, so the top-3 still orders the right test. The broad 8,213-disease tier is not benchmarked and gives rankings only, without test recommendations.

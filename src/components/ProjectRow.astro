@@ -7,7 +7,7 @@ const key = d.stats[0];
 const [c1, c2] = coverStyle(p.id);
 const cover = d.cover ? `url(${d.cover})` : `radial-gradient(circle at 30% 30%, ${c2}, transparent 60%), linear-gradient(135deg, ${c1}, #0A1222)`;
 ---
-<a class={`it${small ? ' small' : ''}`} href={`/work/${p.id}`} data-cover={cover} data-tracks={d.tracks.join('|')}>
+<a class={`it${small ? ' small' : ''}`} href={`/projects/${p.id}`} data-cover={cover} data-tracks={d.tracks.join('|')}>
   <span class="when"><T text={d.year} /></span>
   <div>
     <h3>{d.title}</h3>

@@ -23,14 +23,15 @@ function rehypeTodo() {
 
 // Old addresses from the previous site keep working.
 const old = {
-  '/projects': '/work', '/resume': '/about', '/research_profile': '/about', '/personal_profile': '/about',
+  '/work': '/projects', '/work/[slug]': '/projects/[slug]',
+  '/resume': '/about', '/research_profile': '/about', '/personal_profile': '/about',
   '/publications': '/about', '/contact': '/#contact',
-  '/01-digitaltwin': '/work', '/digitaltwin': '/work',
-  '/02-maxbindai': '/work/maxbind-ai', '/maxbindai': '/work/maxbind-ai',
-  '/03-glp1-sentinel': '/work/glp1-sentinel', '/04-knowledgegraph': '/work/biograph-intelligence',
-  '/05-mhealth_abtesting': '/work/ab-testing-studies', '/06-clinical-trial-eligibility': '/work',
-  '/07-audata': '/work', '/08-selected-publications': '/about', '/09-research-briefs-methods': '/about',
-  '/10-seatrac-hackday': '/work',
+  '/01-digitaltwin': '/projects/digitaltwin', '/digitaltwin': '/projects/digitaltwin',
+  '/02-maxbindai': '/projects/maxbind-ai', '/maxbindai': '/projects/maxbind-ai',
+  '/03-glp1-sentinel': '/projects/glp1-sentinel', '/04-knowledgegraph': '/projects/biograph-intelligence',
+  '/05-mhealth_abtesting': '/projects/ab-testing-studies', '/06-clinical-trial-eligibility': '/projects/clinical-trial-eligibility',
+  '/07-audata': '/projects/audata', '/08-selected-publications': '/about', '/09-research-briefs-methods': '/about',
+  '/10-seatrac-hackday': '/projects/seatrac-tb-hackday',
 };
 
 export default defineConfig({

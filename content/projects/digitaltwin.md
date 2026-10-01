@@ -1,13 +1,26 @@
 ---
 title: DigitalTwin
-summary: "[TO CONFIRM one-line summary]"
+summary: A web app that screens for respiratory disease from cough recordings. Built by a team at the Berkeley AI Hackathon.
 group: Clinical AI
 tracks: [Applied AI]
-tags: [On old site]
-year: "[TO CONFIRM]"
-hidden: true
+tags: [Team, Hackathon]
+year: "2025"
+period: June 2025
+context: Berkeley AI Hackathon
+team: Team
+role: Data scientist and ML engineer
+stack: [Python, Audio analysis, VAPI]
+links:
+  - label: GitHub
+    url: https://github.com/EstherKim97/DigitalTwin
+order: 4
 stats: []
-links: []
 ---
 
-Hidden until confirmed. Set `hidden: false` to show it.
+## What it does
+
+DigitalTwin records a cough in the browser, analyzes the audio and returns a respiratory screening result, with no contact or equipment beyond a microphone.
+
+## Challenges
+
+Cough recordings vary widely in quality, so most of the work was getting usable features from noisy audio and keeping the analysis fast enough to feel real time.

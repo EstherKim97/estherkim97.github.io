@@ -1,26 +1,26 @@
 ---
 import Base from '../layouts/Base.astro';
-import TopBar from '../components/TopBar.astro';
 import Field from '../components/Field.astro';
 import ProjectRow from '../components/ProjectRow.astro';
 import Peek from '../components/Peek.astro';
 import Contact from '../components/Contact.astro';
 import { settings } from '../lib/settings';
-import { featuredProjects } from '../lib/projects';
+import { featuredProjects, allProjects } from '../lib/projects';
 const s = settings();
 const featured = await featuredProjects();
+const total = (await allProjects()).length;
 ---
 <Base current="home">
   <section class="hero">
     <Field />
-    <TopBar />
     <div class="wrap hero-main">
+      <p class="avail rise"><span class="dot"></span>{s.availability}</p>
       <h1 class="mega rise">{s.headline_strong} <span class="soft">{s.headline_soft}</span></h1>
       <div class="hero-foot">
         <p class="rise d2">{s.intro}</p>
         <div class="cta rise d3">
           <a class="btn blue" href="/hire">For recruiters</a>
-          <a class="btn" href="/work">See all work</a>
+          <a class="btn" href="/projects">See all projects</a>
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@ const featured = await featuredProjects();
     </div>
 
     <section class="sec">
-      <div class="sec-head"><h2>Selected work</h2><p>Every number comes with its denominator and how it was measured.</p></div>
+      <div class="sec-head"><h2>Selected projects</h2><p>Five to start with. <a href="/projects">All {total} projects, grouped by area</a></p></div>
       <div class="idx">{featured.map(p => <ProjectRow p={p} />)}</div>
     </section>
 
