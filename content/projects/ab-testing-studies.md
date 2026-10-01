@@ -17,6 +17,7 @@ links:
     url: https://github.com/EstherKim97/match-score-ab-test
   - label: mhealth_abtesting on GitHub
     url: https://github.com/EstherKim97/mhealth_abtesting
+cover: /covers/ab-testing-studies.png
 order: 1
 stats:
   - value: "6.4% → 14.4%"

@@ -87,8 +87,9 @@ h1.mega .soft{ color:#7D879C; }
 }
 @media (prefers-reduced-motion: reduce){ .it{ transition:none; } }
 @media (max-width:760px){ .it{ grid-template-columns:1fr; gap:10px; } .it .k{ text-align:left; } }
-.peek{ position:fixed; z-index:12; width:260px; aspect-ratio:4/3; border-radius:12px; pointer-events:none; opacity:0; transform:translate(-50%,-50%) scale(.9) rotate(-3deg); transition:opacity .2s, transform .25s; box-shadow:0 20px 40px #0A122244; overflow:hidden; background-size:cover; background-position:center; left:-999px; }
-.peek.show{ opacity:1; transform:translate(-50%,-50%) scale(1) rotate(-3deg); }
+.peek{ position:fixed; z-index:12; width:360px; aspect-ratio:3/2; border-radius:12px; pointer-events:none; opacity:0; transform:translate(-50%,-50%) scale(.9) rotate(-2deg); transition:opacity .2s, transform .25s; box-shadow:0 20px 40px #0A122244; overflow:hidden; background:#fff; border:1px solid var(--rule); left:-999px; }
+.peek img{ width:100%; height:100%; object-fit:contain; display:block; }
+.peek.show{ opacity:1; transform:translate(-50%,-50%) scale(1) rotate(-2deg); }
 @media (hover:none){ .peek{ display:none; } }
 
 /* recruiter block */

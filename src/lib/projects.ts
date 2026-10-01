@@ -11,9 +11,3 @@ export async function allProjects() {
 export async function featuredProjects() {
   return (await allProjects()).filter(p => p.data.featured).sort((a, b) => (a.data.featured! - b.data.featured!));
 }
-export const coverStyle = (id: string) => {
-  // Fallback cover colours until a real Higgsfield cover is added
-  const palette = [['#1C47C8','#8FB0FF'],['#0A1222','#2E5BE0'],['#5B7BD6','#DCE4F8'],['#16307F','#7D9BEA'],['#2E5BE0','#EDF0F4']];
-  let h = 0; for (const c of id) h = (h * 31 + c.charCodeAt(0)) >>> 0;
-  return palette[h % palette.length];
-};

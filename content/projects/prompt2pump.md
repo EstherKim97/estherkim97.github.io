@@ -15,6 +15,7 @@ links:
   - label: Live demo
     url: https://prompt2pump.vercel.app
 featured: 2
+cover: /covers/prompt2pump.png
 order: 4
 stats:
   - value: "1st"

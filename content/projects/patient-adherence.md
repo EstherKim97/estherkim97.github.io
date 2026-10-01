@@ -13,6 +13,7 @@ stack: [R, Shiny, Logistic regression]
 links:
   - label: GitHub
     url: https://github.com/EstherKim97/Patient-Adherence
+cover: /covers/patient-adherence.png
 order: 2
 stats: []
 ---
