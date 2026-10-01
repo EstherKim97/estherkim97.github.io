@@ -1,0 +1,40 @@
+<canvas id="field" aria-hidden="true"></canvas>
+<script>
+  // Scattered clues gathering into one answer. Replace with a Higgsfield video later if you like.
+  const cv = document.getElementById('field') as HTMLCanvasElement;
+  const ctx = cv.getContext('2d')!;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let W = 0, H = 0, pts: any[] = [];
+  function init() {
+    const dpr = Math.min(devicePixelRatio || 1, 2);
+    W = cv.clientWidth; H = cv.clientHeight; cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const n = W < 700 ? 70 : 150, clues = W < 700 ? 14 : 24;
+    const cx = W < 700 ? W * 0.7 : W * 0.78, cy = H * 0.32, r = Math.min(W, H) * 0.12;
+    pts = Array.from({ length: n }, (_, i) => {
+      const clue = i < clues, a = (i / clues) * Math.PI * 2, rr = r * (0.35 + 0.65 * ((i * 37) % 10) / 10);
+      return { x: Math.random() * W, y: Math.random() * H, ph: Math.random() * 6.28, sp: .2 + Math.random() * .4, clue, tx: cx + Math.cos(a) * rr, ty: cy + Math.sin(a) * rr };
+    });
+  }
+  const ease = (t: number) => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  function draw(time: number) {
+    const s = time / 1000, cyc = (s % 9) / 9;
+    let k = cyc < .15 ? 0 : cyc < .45 ? ease((cyc - .15) / .3) : cyc < .8 ? 1 : 1 - ease((cyc - .8) / .2);
+    if (reduce) k = 1;
+    ctx.clearRect(0, 0, W, H);
+    const pos = pts.map(p => {
+      const hx = p.x + Math.sin(s * p.sp + p.ph) * 14, hy = p.y + Math.cos(s * p.sp * .8 + p.ph) * 14;
+      return p.clue ? { x: hx + (p.tx - hx) * k, y: hy + (p.ty - hy) * k, c: 1 } : { x: hx, y: hy, c: 0 };
+    });
+    for (let i = 0; i < pos.length; i++) for (let j = i + 1; j < pos.length; j++) {
+      const a = pos[i], b = pos[j], d = Math.hypot(a.x - b.x, a.y - b.y);
+      if (a.c && b.c && d < 170) { ctx.strokeStyle = `rgba(28,71,200,${.5 * k * (1 - d / 170)})`; }
+      else if (!a.c && !b.c && d < 90) { ctx.strokeStyle = `rgba(10,18,34,${.07 * (1 - d / 90)})`; }
+      else continue;
+      ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+    }
+    pos.forEach(p => { ctx.fillStyle = p.c ? '#1C47C8' : 'rgba(10,18,34,.22)'; ctx.beginPath(); ctx.arc(p.x, p.y, p.c ? 3.2 : 1.8, 0, 6.283); ctx.fill(); });
+    if (!reduce) requestAnimationFrame(draw);
+  }
+  init(); addEventListener('resize', () => { init(); if (reduce) draw(0); });
+  reduce ? draw(0) : requestAnimationFrame(draw);
+</script>

@@ -1,0 +1,6 @@
+---
+// Prints text and highlights any [TO CONFIRM ...] part.
+import { parts } from '../lib/settings';
+const { text } = Astro.props;
+---
+{parts(text).map(p => p.todo ? <mark class="todo">{p.t}</mark> : p.t)}

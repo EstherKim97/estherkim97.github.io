@@ -1,0 +1,118 @@
+# ============================================================
+#  SITE SETTINGS
+#  Edit text here. Keep the spacing at the start of each line.
+#  Anything in [TO CONFIRM ...] shows as an orange box on the site
+#  until you replace it.
+# ============================================================
+
+name: Seon Min Kim
+availability: Open to roles in the US, Singapore and Korea
+location: "[TO CONFIRM city]"
+work_authorization: "[TO CONFIRM work authorization, e.g. OPT]"
+
+headline_strong: "Regulatory judgment,"
+headline_soft: "built into AI you can check."
+intro: >-
+  Four years in drug regulatory affairs taught me to ask what evidence a claim
+  needs. Now I build health AI and data pipelines with that question designed in.
+
+# Shown under the hero on the home page, left to right
+career:
+  - years: "2020–2024"
+    title: "Regulatory affairs, Chong Kun Dang"
+    note: "Global new drug RA. Four biologics programs."
+  - years: "2024–2026"
+    title: "MS Health Data Science, UCSF"
+    note: "GPA 3.93 / 4.0"
+  - years: "2025–2026"
+    title: "AI evaluation, UCSF Innovation Ventures"
+    note: "Success criteria for clinical decision-support AI."
+  - years: "2025–2026"
+    title: "Multi-omics research, UCSF"
+    note: "Co-first author, kidney transplant rejection."
+
+# ------------------------------------------------------------
+#  PROJECT GROUPS
+#  Every project file needs  group:  set to one of these names,
+#  spelled exactly the same. Order here = order on the Work page.
+#  To add a group, add one more "- name:" block.
+# ------------------------------------------------------------
+groups:
+  - name: Regulatory & safety intelligence
+    about: Systems that turn regulatory and drug safety judgment into data and AI.
+  - name: Clinical AI
+    about: AI that works with patient and clinical data, and how to judge whether it is ready for care.
+  - name: Biomedical research & discovery
+    about: Omics, molecules and research evidence.
+  - name: Experimentation & analytics
+    about: Study design, causal inference and product data.
+
+# ------------------------------------------------------------
+#  ROLE TRACKS
+#  Project files use  tracks:  with these names.
+#  first_read = file names (without .md) of the 3 projects to read first.
+#  Put résumé PDFs in public/resumes/ with the file name below.
+# ------------------------------------------------------------
+tracks:
+  - name: Applied AI
+    title: Applied AI / ML
+    roles: Applied AI, AI/ML engineer, AI scientist in health and bio
+    shows: Building LLM and ML systems, deciding what the model may and may not decide, and testing whether results hold up.
+    first_read: [rare-disease-agent, prompt2pump, sourcelock]
+    resume: /resumes/seonmin-kim-applied-ai.pdf
+  - name: Health Data Science
+    title: Health Data Science & Bioinformatics
+    roles: Health data scientist, bioinformatics scientist, computational biology
+    shows: Cleaning large raw datasets end to end, integrating multi-omics data, and drawing statistically sound conclusions.
+    first_read: [kidney-transplant-multiomics, glp1-sentinel, pulmonary-fibrosis-scrnaseq]
+    resume: /resumes/seonmin-kim-health-data-science.pdf
+
+# Korean résumé for Korean applications (AI 업무혁신)
+resume_korean: /resumes/seonmin-kim-ko.pdf
+
+how_i_work: >-
+  In every system I build, I first decide which parts a model is allowed to
+  decide and which parts must come from rules or curated data. In the Rare
+  Disease Phenotype Agent, the language model only translates notes into
+  standard terms. In SourceLock, deterministic rules keep final authority over
+  approval status and prohibited claims. I learned this habit in regulatory
+  affairs, where every claim needs evidence someone else can check.
+
+# ------------------------------------------------------------
+#  CONTACT
+#  Your email is never shown. The form sends messages to your
+#  inbox through Formspree. Paste your form ID (e.g. xyzabcde)
+#  below. Leave it empty to hide the form.
+# ------------------------------------------------------------
+contact:
+  formspree_id: ""
+  linkedin: https://www.linkedin.com/in/seon-min-kim
+  github: https://github.com/EstherKim97
+
+# ------------------------------------------------------------
+#  ABOUT PAGE
+# ------------------------------------------------------------
+about:
+  intro: >-
+    I am a health data scientist with four years of drug regulatory affairs
+    experience. I lived in Singapore for 13 years and work fluently in Korean
+    and English.
+  experience:
+    - when: "2025.06 – 2026.03"
+      what: "AI health technology evaluation intern, UCSF Innovation Ventures"
+    - when: "2025.06 – 2026.09"
+      what: "Researcher, Sarwal and Sirota labs, UCSF (kidney transplant multi-omics)"
+    - when: "2020.07 – 2024.08"
+      what: "Associate, Global New Drug RA team, Chong Kun Dang (four biologics programs)"
+    - when: "2019.01"
+      what: "Intern, SNP Genetics"
+    - when: "2018.01 – 2019.07"
+      what: "Undergraduate researcher, Sogang University"
+  education:
+    - when: "2024.07 – 2026.09"
+      what: "MS Health Data Science, UCSF (GPA 3.93 / 4.0)"
+    - when: "2015.12 – 2020.02"
+      what: "BS Life Science, Sogang University"
+  publications:
+    - "[TO CONFIRM kidney transplant manuscript: title, journal, status]"
+  languages: Korean and English (fluent)

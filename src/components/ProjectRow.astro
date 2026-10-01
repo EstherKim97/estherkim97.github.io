@@ -1,0 +1,21 @@
+---
+import T from './T.astro';
+import { coverStyle } from '../lib/projects';
+const { p, small = false } = Astro.props;
+const d = p.data;
+const key = d.stats[0];
+const [c1, c2] = coverStyle(p.id);
+const cover = d.cover ? `url(${d.cover})` : `radial-gradient(circle at 30% 30%, ${c2}, transparent 60%), linear-gradient(135deg, ${c1}, #0A1222)`;
+---
+<a class={`it${small ? ' small' : ''}`} href={`/work/${p.id}`} data-cover={cover} data-tracks={d.tracks.join('|')}>
+  <span class="when"><T text={d.year} /></span>
+  <div>
+    <h3>{d.title}</h3>
+    <p class="one"><T text={d.summary} /></p>
+    <div class="tags">
+      {d.award && <span class="badge">{d.award}</span>}
+      {d.tags.map((t: string) => <span class="tag"><T text={t} /></span>)}
+    </div>
+  </div>
+  <div class="k">{key && <><div class="kv">{key.value}</div><div class="kc">{key.label}</div></>}</div>
+</a>

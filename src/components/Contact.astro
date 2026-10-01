@@ -1,0 +1,23 @@
+---
+import { settings } from '../lib/settings';
+const c = settings().contact;
+---
+<section class="contact" id="contact">
+  <div>
+    <h2>Let’s talk.</h2>
+    <p class="sub">{c.formspree_id ? 'Send a message here and it reaches me directly.' : 'The fastest way to reach me is LinkedIn.'}</p>
+    <div class="row-btns">
+      <a class="btn solid" href={c.linkedin}>Message on LinkedIn</a>
+      <a class="btn" href={c.github}>GitHub</a>
+    </div>
+  </div>
+  {c.formspree_id && (
+    <form action={`https://formspree.io/f/${c.formspree_id}`} method="POST">
+      <label>Name<input name="name" autocomplete="name" required></label>
+      <label>Your email, so I can reply<input name="email" type="email" autocomplete="email" required></label>
+      <label>Company and role<input name="company"></label>
+      <label>Message<textarea name="message" required></textarea></label>
+      <div><button class="btn blue" type="submit">Send message</button></div>
+    </form>
+  )}
+</section>
