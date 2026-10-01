@@ -1,14 +1,14 @@
 ---
-title: Regulatory affairs, Chong Kun Dang
-summary: Four years of regulatory affairs for biologics, including biosimilars of ranibizumab and risankizumab and a novel bispecific antibody. Product approval, post-approval change, IND and FDA pre-IND.
+title: Global RA team, Chong Kun Dang
+summary: Four years as a regulatory affairs specialist, on biosimilars of ranibizumab and risankizumab and on novel biologics, including an EGFR/c-MET bispecific antibody. Product approval, post-approval change, IND and FDA pre-IND.
 group: Regulatory & safety intelligence
 tracks: [Applied AI, Health Data Science]
 tags: [Industry experience]
 year: "2020–24"
 period: July 2020 – August 2024
-context: Global New Drug RA team, Chong Kun Dang
+context: Global RA team, Chong Kun Dang
 team: Team
-role: Associate, regulatory affairs for four biologics programs
+role: Regulatory affairs specialist
 stack: [MFDS, FDA, Product approval, Post-approval change, IND, Pre-IND]
 links: []
 experience: true
@@ -22,7 +22,10 @@ stats:
 
 ## Programs
 
-I worked on biosimilars of ranibizumab and risankizumab and on a novel EGFR/c-MET bispecific antibody, with submissions to MFDS (Korea) and FDA.
+- **Biosimilars:** ranibizumab and risankizumab
+- **Novel biologics:** including an EGFR/c-MET bispecific antibody
+
+Submissions went to MFDS (Korea) and FDA.
 
 ## Product approval and post-approval change: ranibizumab biosimilar
 
